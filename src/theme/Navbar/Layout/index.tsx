@@ -30,7 +30,6 @@ export default function NavbarLayout({ children }: Props): JSX.Element {
   const mobileSidebar = useNavbarMobileSidebar();
   const { navbarRef, isNavbarVisible } = useHideableNavbar(hideOnScroll);
   const breakpoint = useBreakpoint();
-  console.log(breakpoint);
 
   return (
     <nav

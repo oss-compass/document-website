@@ -66,49 +66,44 @@ const config = {
         hideOnScroll: true,
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Tutorial',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              { label: 'Get Standard', to: '/docs/get-start' },
+              { label: 'Dimensions Define', to: '/docs/intro' },
+              { label: 'Models', to: '/docs/intro' },
+              { label: 'Metrics Define', to: '/docs/intro' },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              { label: 'Terms', href: '/' },
+              { label: 'Privacy', href: '/' },
+              { label: 'Built With', href: '/' },
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Slack',
+                href: 'https://join.slack.com/t/slack-vit2156/shared_invite/zt-1hv9pabzr-80W3QeM4zABSJFWEmPNipw',
               },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              { label: 'WeChat', href: '/' },
             ],
           },
           {
-            title: 'More',
+            title: 'Code',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              { label: 'Github', href: 'https://github.com/oss-compass' },
+              { label: 'Gitee', href: 'https://gitee.com/oss-compass' },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright©${new Date().getFullYear()} OSS compass. All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,

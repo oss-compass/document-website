@@ -75,7 +75,6 @@ function CollapseButton({
   collapsed: boolean;
   onClick: ComponentProps<'button'>['onClick'];
 }) {
-  console.log(collapsed);
   return (
     <button
       aria-label={translate(
