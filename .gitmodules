@@ -1,6 +1,6 @@
-[submodule "docs/community"]
-	path = docs/community
+[submodule "modules/community"]
+	path = modules/community
 	url = https://github.com/oss-compass/community.git
-[submodule "docs/docs"]
-	path = docs/docs
+[submodule "modules/docs"]
+	path = modules/docs
 	url = https://github.com/oss-compass/docs.git
