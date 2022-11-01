@@ -9,7 +9,7 @@ const config = {
   title: 'OSS compass',
   tagline: '',
   url: 'https://compass.gitee.com',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -73,10 +73,9 @@ const config = {
           {
             title: 'Tutorial',
             items: [
-              { label: 'Get Standard', to: '/docs/get-start' },
-              { label: 'Dimensions Define', to: '/docs/intro' },
-              { label: 'Models', to: '/docs/intro' },
-              { label: 'Metrics Define', to: '/docs/intro' },
+              { label: 'Get Standard', to: '/docs/quick-start' },
+              { label: 'Dimensions Define', to: '/docs/dimensions-define' },
+              { label: 'Models', to: '/docs/category/productivity-metrics-models' },
             ],
           },
           {

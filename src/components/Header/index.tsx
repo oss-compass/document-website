@@ -30,7 +30,7 @@ const Header: React.FC<{
             <Link href="/" className="mr-6">
               <Logo color="white" />
             </Link>
-            <Link href="/docs">
+            <Link href="/docs/tags/metrics-models">
               <span className={'mx-6 px-2.5 font-medium text-white'}>
                 Metrics Models
               </span>
