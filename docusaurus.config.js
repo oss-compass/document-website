@@ -10,7 +10,7 @@ const config = {
   tagline: '',
   url: 'https://compass.gitee.com',
   baseUrl: '/docs/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 

@@ -1,6 +1,8 @@
-import React, { type ComponentProps } from 'react';
+import React, {type ComponentProps, useEffect} from 'react';
 import clsx from 'clsx';
+import { useUpdate } from 'react-use';
 import { useThemeConfig } from '@docusaurus/theme-common';
+import useIsBrowser from '@docusaurus/useIsBrowser';
 import {
   useHideableNavbar,
   useNavbarMobileSidebar,
@@ -30,6 +32,8 @@ export default function NavbarLayout({ children }: Props): JSX.Element {
   const mobileSidebar = useNavbarMobileSidebar();
   const { navbarRef, isNavbarVisible } = useHideableNavbar(hideOnScroll);
   const breakpoint = useBreakpoint();
+  const isBrowser = useIsBrowser();
+  const bk = isBrowser? breakpoint: 'lg';
 
   return (
     <nav
@@ -41,8 +45,8 @@ export default function NavbarLayout({ children }: Props): JSX.Element {
           'navbar--dark': style === 'dark',
           'navbar--primary': style === 'primary',
           'navbar-sidebar--show': mobileSidebar.shown,
-          'custom-desktop-nav': breakpoint === 'lg',
-          'custom-mobile-nav': breakpoint === 'md',
+          'custom-desktop-nav': bk === 'lg',
+          'custom-mobile-nav': bk === 'md',
         },
         hideOnScroll && [
           styles.navbarHideable,

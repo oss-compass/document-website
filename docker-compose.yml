@@ -1,0 +1,8 @@
+version: '3'
+services:
+  docs-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:3000"
