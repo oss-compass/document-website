@@ -38,7 +38,12 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/oss-compass/docs/tree/main/',
+          // Advanced use-case: functional editUrl
+          editUrl: ({ versionDocsDirPath, docPath }) => {
+            const repo = docPath.split('/').shift();
+            const file = docPath.split('/').splice(1).join('/');
+            return `https://github.com/oss-compass/${repo}/blob/main/${file}`;
+          },
         },
         // blog: {
         //   showReadingTime: true,
@@ -47,6 +52,7 @@ const config = {
         //   editUrl:
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -75,7 +81,10 @@ const config = {
             items: [
               { label: 'Get Standard', to: '/docs/quick-start' },
               { label: 'Dimensions Define', to: '/docs/dimensions-define' },
-              { label: 'Models', to: '/docs/category/productivity-metrics-models' },
+              {
+                label: 'Models',
+                to: '/docs/category/productivity-metrics-models',
+              },
             ],
           },
           {
