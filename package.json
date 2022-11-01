@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.1.0",
-    "@docusaurus/theme-common": "^2.1.0",
+    "@docusaurus/theme-common": "2.1.0",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tsconfig/docusaurus": "^1.0.5",
     "autoprefixer": "^10.4.12",
