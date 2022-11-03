@@ -27,9 +27,9 @@ const Header: React.FC<{
           )}
         >
           <div className="flex h-full items-center">
-            <Link href="/" className="mr-6">
+            <a href="https://compass.gitee.com/" className="mr-6">
               <Logo color="white" />
-            </Link>
+            </a>
             <Link href="/docs/category/productivity-metrics-models">
               <span className={'mx-6 px-2.5 font-medium text-white'}>
                 Metrics Models
