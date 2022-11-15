@@ -36,7 +36,7 @@ const Header: React.FC<{
               </span>
             </Link>
             <HeaderCommunityMenu />
-            <Link href="/">
+            <Link href="/docs/about">
               <span className={'mx-6 px-2.5 font-medium text-white'}>
                 About
               </span>

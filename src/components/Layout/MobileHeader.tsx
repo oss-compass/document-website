@@ -7,17 +7,17 @@ import Drawer from '../Drawer';
 const headLinks = [
   {
     title: 'Metrics Models',
-    href: '/',
+    href: '/docs/dimensions-define',
     icon: <AiOutlineHome />,
   },
   {
     title: 'Community',
-    href: '/',
+    href: '/docs/community',
     icon: <AiOutlineHome />,
   },
   {
     title: 'About',
-    href: '/',
+    href: '/docs/about',
     icon: <AiOutlineHome />,
   },
 ];
