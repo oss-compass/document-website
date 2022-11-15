@@ -30,7 +30,7 @@ const Header: React.FC<{
             <a href="https://compass.gitee.com/" className="mr-6">
               <Logo color="white" />
             </a>
-            <Link href="/docs/category/productivity-metrics-models">
+            <Link href="/docs/dimensions-define">
               <span className={'mx-6 px-2.5 font-medium text-white'}>
                 Metrics Models
               </span>

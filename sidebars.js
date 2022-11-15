@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: 'category',
       collapsed: false,
-      label: 'Dimensions Define',
+      label: 'Ecosystem Evaluation System',
       link: {
         type: 'generated-index',
         description: 'Ecosystem is used to describe the health status of open source community standing from ecology context. We create three top level dimensions: Productivity, Robustness and Niche Creation.',
