@@ -79,30 +79,23 @@ const config = {
           {
             title: 'Tutorial',
             items: [
-              { label: 'Get Standard', to: '/docs/quick-start' },
+              { label: 'Quick start', to: '/docs/quick-start' },
               { label: 'Dimensions Define', to: '/docs/dimensions-define' },
-              {
-                label: 'Models',
-                to: '/docs/category/productivity-metrics-models',
-              },
             ],
           },
           {
             title: 'Legal',
             items: [
-              { label: 'Terms', href: '/' },
-              { label: 'Privacy', href: '/' },
+              { label: 'Terms', href: '/docs/terms-of-use' },
+              { label: 'Privacy', href: '/docs/privacy-policy' },
               { label: 'Built With', href: '/' },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Slack',
-                href: 'https://join.slack.com/t/slack-vit2156/shared_invite/zt-1hv9pabzr-80W3QeM4zABSJFWEmPNipw',
-              },
-              { label: 'WeChat', href: '/' },
+              { label: 'Slack', href: '/docs/community/slack', },
+              { label: 'WeChat', href: '/docs/community/wechat' },
             ],
           },
           {

@@ -101,7 +101,7 @@ const sidebars = {
       label: 'Community',
       link: {
         type: 'generated-index',
-        description: 'The capability of an ecosystem or project to face and survive disruptions.',
+        description: 'Join the OSS-Compass Community',
         slug: '/community',
         keywords: [],
         image: '/img/docusaurus.png',
@@ -111,6 +111,22 @@ const sidebars = {
         { type: 'link', label: 'Gitee', href: 'https://gitee.com/oss-compass' },
         { type: 'doc', label: 'Slack', id: 'community/communication/slack' },
         { type: 'doc', label: 'WeChat', id: 'community/communication/wechat' },
+      ],
+    },
+
+    {
+      type: 'category',
+      collapsed: false,
+      label: 'Lagel',
+      link: {
+        type: 'generated-index',
+        slug: '/legal',
+        keywords: [],
+        image: '/img/docusaurus.png',
+      },
+      items: [
+        { type: 'doc', label: 'Terms', id: 'community/legal/terms-of-use' },
+        { type: 'doc', label: 'Privacy', id: 'community/legal/privacy-policy' },
       ],
     },
 

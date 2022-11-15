@@ -17,7 +17,7 @@ export const HeaderCommunityMenu = () => {
             <Slack />
           </div>
           <Link
-            href="https://join.slack.com/t/slack-vit2156/shared_invite/zt-1hv9pabzr-80W3QeM4zABSJFWEmPNipw"
+            href="/docs/community/slack"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -31,7 +31,7 @@ export const HeaderCommunityMenu = () => {
           <div className="mr-4 w-8">
             <Wechat />
           </div>
-          <Link href="/">
+          <Link href="/docs/community/wechat">
             <div className="text-base">Wechat</div>
             <div className="text-sm text-white/50">
               Scan our group chat QR code to join
