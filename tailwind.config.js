@@ -18,11 +18,14 @@ module.exports = {
     },
     extend: {
       zIndex: {
-        drawer: 120,
-        mask: 100,
-        fullscreen: 80,
-        dropdown: 50,
-        nav: 40,
+        modal: 1000,
+        drawer: 500,
+        mask: 400,
+        fullscreen: 300,
+        dropdown: 200,
+        header: 120,
+        nav: 100,
+        menu: 80,
       },
       colors: {
         primary: '#3A5BEF',

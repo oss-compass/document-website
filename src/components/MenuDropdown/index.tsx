@@ -11,23 +11,19 @@ export const HeaderCommunityMenu = () => {
         <a className={'font-medium text-white'}>Community</a>
         <AiFillCaretDown color="#fff" className="ml-2" />
       </div>
-      <ul className="absolute top-[82px]  z-dropdown hidden w-[360px] bg-black/90 text-white group-hover:block">
-        <li className="flex cursor-pointer items-center border-b border-white/30 py-4 pl-6 hover:bg-[#333333]">
+      <ul className="absolute top-[100%] z-dropdown hidden w-[360px] border-x-0 border-t-2 border-b-0 border-solid border-transparent text-white group-hover:block">
+        <li className="flex cursor-pointer items-center border-b border-x-0 border-b-0 border-solid border-white/30 bg-black/90 py-4 pl-6 hover:bg-[#333333]">
           <div className="mr-4 w-8">
             <Slack />
           </div>
-          <Link
-            href="/docs/community/slack"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/docs/community/slack">
             <p className="text-base">Slack</p>
             <p className="text-sm text-white/50">
               Join our community channel on Slack
             </p>
           </Link>
         </li>
-        <li className="flex cursor-pointer items-center py-4 pl-6 hover:bg-[#333333]">
+        <li className="flex cursor-pointer items-center bg-black/90 py-4 pl-6 hover:bg-[#333333]">
           <div className="mr-4 w-8">
             <Wechat />
           </div>

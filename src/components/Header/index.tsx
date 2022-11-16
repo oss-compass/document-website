@@ -27,7 +27,7 @@ const Header: React.FC<{
           )}
         >
           <div className="flex h-full items-center">
-            <a href="https://compass.gitee.com/" className="mr-6">
+            <a href="/" className="mr-6">
               <Logo color="white" />
             </a>
             <Link href="/docs/dimensions-define">

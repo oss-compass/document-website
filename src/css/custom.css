@@ -18,6 +18,7 @@
     --ifm-color-primary-lighter: #637df2;
     --ifm-color-primary-lightest: #8ca0f6;
     --ifm-code-font-size: 95%;
+    --ifm-navbar-height: 80px;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
