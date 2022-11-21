@@ -79,23 +79,23 @@ const config = {
           {
             title: 'Tutorial',
             items: [
-              { label: 'Quick start', to: '/docs/quick-start' },
-              { label: 'Dimensions Define', to: '/docs/dimensions-define' },
+              { label: 'Quick start', to: '/quick-start' },
+              { label: 'Dimensions Define', to: '/dimensions-define' },
             ],
           },
           {
             title: 'Legal',
             items: [
-              { label: 'Terms', href: '/docs/terms-of-use' },
-              { label: 'Privacy', href: '/docs/privacy-policy' },
+              { label: 'Terms', href: '/terms-of-use' },
+              { label: 'Privacy', href: '/privacy-policy' },
               { label: 'Built With', href: '/' },
             ],
           },
           {
             title: 'Community',
             items: [
-              { label: 'Slack', href: '/docs/community/slack', },
-              { label: 'WeChat', href: '/docs/community/wechat' },
+              { label: 'Slack', href: '/community/slack', },
+              { label: 'WeChat', href: '/community/wechat' },
             ],
           },
           {
