@@ -1,26 +1,6 @@
-## Base ########################################################################
-# Use a larger node image to do the build for native deps (e.g., gcc, python)
-FROM node:16.18 as base
+FROM nginx:1.12.0-alpine
 
-# Reduce npm log spam and colour during install within Docker
-ENV NPM_CONFIG_LOGLEVEL=warn
-ENV NPM_CONFIG_COLOR=false
+COPY nginx.conf /etc/nginx
+COPY build /usr/share/nginx/html/docs
 
-# We'll run the app as the `node` user, so put it in their home directory
-WORKDIR /home/node/app
-# Copy the source code over
-COPY --chown=node:node . /home/node/app/
-
-## Production ##################################################################
-# Also define a production target which doesn't use devDeps
-FROM base as production
-WORKDIR /home/node/app
-# Build the Docusaurus app
-RUN yarn
-RUN yarn build
-
-# Expose port 3000
-EXPOSE 3000
-# Start the app in debug mode so we can attach the debugger
-CMD ["yarn", "serve"]
-
+CMD ["nginx", "-g", "daemon off;"]

@@ -16,7 +16,7 @@
     "crowdin": "crowdin",
     "crowdin:sync": "docusaurus write-translations && crowdin push",
     "crowdin:pull": "crowdin pull",
-    "crowdin:copy": "rsync -a -v --ignore-existing modules/ i18n/zh/docusaurus-plugin-content-docs/current/",
+    "crowdin:copy": "sh ./copy.sh",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc"
   },
