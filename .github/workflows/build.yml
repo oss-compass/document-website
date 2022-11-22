@@ -29,10 +29,13 @@ jobs:
       - run: yarn crowdin:pull
       - run: yarn crowdin:copy
       - run: yarn build
+      - run: tar -zcvf build.tar.gz ./build
+      - run: tar -zcvf i18n.tar.gz ./i18n
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: build
+          name: artifacts
           path: |
-            build
+            build.tar.gz
+            i18n.tar.gz
