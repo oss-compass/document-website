@@ -1,6 +1,7 @@
-FROM nginx:1.12.0-alpine
+FROM nginx:1.23.2-alpine
 
-COPY nginx.conf /etc/nginx
 COPY build /usr/share/nginx/html/docs
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 3000
 
-CMD ["nginx", "-g", "daemon off;"]
+ENTRYPOINT ["nginx", "-g", "daemon off;"]

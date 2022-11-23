@@ -9,20 +9,27 @@ on:
 jobs:
   publish-images:
     runs-on: ubuntu-latest
+    env:
+      CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+      CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
     steps:
       - uses: actions/checkout@v3
-
-      - name: Download a single artifact
-        uses: actions/download-artifact@v3
         with:
-          name: build_artifacts
+          submodules: 'recursive'
+
+      - name: Download artifact
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          workflow: build.yml
+          workflow_conclusion: success
 
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v4
         with:
           images: |
-            registry.cn-hongkong.aliyuncs.com/oss-compass/compass-web
+            registry.cn-hongkong.aliyuncs.com/oss-compass/compass-docs
           tags: |
             type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
             type=sha
