@@ -117,7 +117,7 @@ const sidebars = {
     {
       type: 'category',
       collapsed: false,
-      label: 'Lagel',
+      label: 'Legal',
       link: {
         type: 'generated-index',
         slug: '/legal',
