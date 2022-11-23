@@ -16,7 +16,7 @@ export const HeaderCommunityMenu = () => {
           <div className="mr-4 w-8">
             <Slack />
           </div>
-          <Link href="/docs/community/slack">
+          <Link href="/community/slack">
             <p className="text-base">Slack</p>
             <p className="text-sm text-white/50">
               Join our community channel on Slack
@@ -27,7 +27,7 @@ export const HeaderCommunityMenu = () => {
           <div className="mr-4 w-8">
             <Wechat />
           </div>
-          <Link href="/docs/community/wechat">
+          <Link href="/community/wechat">
             <div className="text-base">Wechat</div>
             <div className="text-sm text-white/50">
               Scan our group chat QR code to join
