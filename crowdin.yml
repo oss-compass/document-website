@@ -18,11 +18,11 @@ files: [
   {
     "source": "/i18n/en/**/*",
     "translation": "/i18n/%two_letters_code%/**/%original_file_name%",
-    "ignore": [ /**/*.jpg, /**/*.gif, /**/LICENSE, ]
+    "ignore": [ "/**/*.jpg", "/**/*.gif", "/**/LICENSE", "/i18n/en/docusaurus-plugin-content-docs/current" ]
   },
   {
     "source": "/modules/**/*",
     "translation": "/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%",
-    "ignore": [ /**/*.jpg, /**/*.gif, /**/LICENSE ]
+    "ignore": [ "/**/*.jpg", "/**/*.gif", "/**/LICENSE" ]
   }
 ]
