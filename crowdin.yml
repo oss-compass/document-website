@@ -23,5 +23,9 @@ files: [
   {
     "source": "/modules/**/*.md",
     "translation": "/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%",
-  }
+  }，
+  {
+    "source": "/modules/**/*.mdx",
+    "translation": "/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%",
+  }，
 ]
