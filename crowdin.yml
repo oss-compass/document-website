@@ -3,7 +3,6 @@
 #
 "project_id_env": "CROWDIN_PROJECT_ID"
 "api_token_env": "CROWDIN_PERSONAL_TOKEN"
-"base_url": "https://api.crowdin.com"
 
 #
 # Choose file structure in Crowdin
@@ -23,9 +22,5 @@ files: [
   {
     "source": "/modules/**/*.md",
     "translation": "/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%",
-  }，
-  {
-    "source": "/modules/**/*.mdx",
-    "translation": "/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%",
-  }，
+  },
 ]
