@@ -1,27 +1,23 @@
 import React from 'react';
+import Translate from '@docusaurus/Translate';
 import classnames from 'classnames';
 import Link from '@docusaurus/Link';
 import Logo from '@site/src/components/Logo';
-import SubmitYouProject from '@site/src/components/Misc/SubmitYouProject';
-import MobileHeader from '@site/src/components/Layout/MobileHeader';
-import { HeaderCommunityMenu } from '@site/src/components/MenuDropdown';
+import SubmitYouProject from './SubmitYouProject';
+import MobileHeader from './MobileHeader';
+import CommunityDropdown from './CommunityDropdown';
 import ChangeLanguage from './ChangeLanguage';
 
-import LogoGitee from './logo-gitee.svg';
-import LogoGithub from './logo-github.svg';
+import LogoGitee from '../svgs/gitee-red.svg';
+import LogoGithub from '../svgs/github.svg';
 
 const Header: React.FC<{
   mobileMenu?: React.ReactNode;
   className?: string;
 }> = ({ className, mobileMenu }) => {
   return (
-    <>
-      <header
-        className={classnames(
-          className,
-          'w-full flex-shrink-0 bg-black lg:hidden'
-        )}
-      >
+    <header className="w-full">
+      <div className={classnames('bg-black lg:hidden')}>
         <div
           className={classnames(
             'h-20 px-8',
@@ -32,15 +28,18 @@ const Header: React.FC<{
             <a href="/" className="mr-6">
               <Logo color="white" />
             </a>
+
             <Link href="/dimensions-define">
               <span className={'mx-6 px-2.5 font-medium text-white'}>
-                Metrics Models
+                <Translate id={'header.metrics_models'} />
               </span>
             </Link>
-            <HeaderCommunityMenu />
+
+            <CommunityDropdown />
+
             <Link href="/about">
               <span className={'mx-6 px-2.5 font-medium text-white'}>
-                About
+                <Translate id={'header.about'} />
               </span>
             </Link>
           </div>
@@ -55,7 +54,6 @@ const Header: React.FC<{
                 <LogoGitee />
               </Link>
             </div>
-
             <div className="mx-5 cursor-pointer">
               <Link
                 href="https://github.com/oss-compass"
@@ -65,17 +63,15 @@ const Header: React.FC<{
                 <LogoGithub />
               </Link>
             </div>
-
             <ChangeLanguage />
-
             <SubmitYouProject />
           </div>
         </div>
-      </header>
-      <header className={classnames('w-full flex-shrink-0 >lg:hidden')}>
+      </div>
+      <div className={classnames('bg-white >lg:hidden h-full')}>
         <MobileHeader>{mobileMenu}</MobileHeader>
-      </header>
-    </>
+      </div>
+    </header>
   );
 };
 export default Header;

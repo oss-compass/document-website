@@ -1,0 +1,82 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.webSidebar.category.Ecosystem Evaluation System": {
+    "message": "Ecosystem Evaluation System",
+    "description": "The label for category Ecosystem Evaluation System in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Ecosystem Evaluation System.link.generated-index.description": {
+    "message": "Ecosystem is used to describe the health status of open source community standing from ecology context. We create three top level dimensions: Productivity, Robustness and Niche Creation.",
+    "description": "The generated-index page description for category Ecosystem Evaluation System in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Productivity": {
+    "message": "Productivity",
+    "description": "The label for category Productivity in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Productivity.link.generated-index.description": {
+    "message": "The efficiency with which an ecosystem or project converts inputs into output.",
+    "description": "The generated-index page description for category Productivity in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Robustness": {
+    "message": "Robustness",
+    "description": "The label for category Robustness in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Robustness.link.generated-index.description": {
+    "message": "The capability of an ecosystem or project to face and survive disruptions.",
+    "description": "The generated-index page description for category Robustness in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Niche Creation": {
+    "message": "Niche Creation",
+    "description": "The label for category Niche Creation in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Niche Creation.link.generated-index.description": {
+    "message": "The capacity to create and recognize meaningful diversity and thereby new capabilities.",
+    "description": "The generated-index page description for category Niche Creation in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Community": {
+    "message": "Community",
+    "description": "The label for category Community in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Community.link.generated-index.description": {
+    "message": "Join the OSS-Compass Community",
+    "description": "The generated-index page description for category Community in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Legal": {
+    "message": "Legal",
+    "description": "The label for category Legal in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.link.GitHub": {
+    "message": "GitHub",
+    "description": "The label for link GitHub in sidebar webSidebar, linking to https://github.com/oss-compass"
+  },
+  "sidebar.webSidebar.link.Gitee": {
+    "message": "Gitee",
+    "description": "The label for link Gitee in sidebar webSidebar, linking to https://gitee.com/oss-compass"
+  },
+  "sidebar.webSidebar.doc.Quick Start": {
+    "message": "Quick Start",
+    "description": "The label for the doc item Quick Start in sidebar webSidebar, linking to the doc community/quick-start"
+  },
+  "sidebar.webSidebar.doc.Overview": {
+    "message": "Overview",
+    "description": "The label for the doc item Overview in sidebar webSidebar, linking to the doc docs/metrics-models/niche-creation/README"
+  },
+  "sidebar.webSidebar.doc.Slack": {
+    "message": "Slack",
+    "description": "The label for the doc item Slack in sidebar webSidebar, linking to the doc community/community/slack"
+  },
+  "sidebar.webSidebar.doc.WeChat": {
+    "message": "WeChat",
+    "description": "The label for the doc item WeChat in sidebar webSidebar, linking to the doc community/community/wechat"
+  },
+  "sidebar.webSidebar.doc.Terms": {
+    "message": "Terms",
+    "description": "The label for the doc item Terms in sidebar webSidebar, linking to the doc community/legal/terms-of-use"
+  },
+  "sidebar.webSidebar.doc.Privacy": {
+    "message": "Privacy",
+    "description": "The label for the doc item Privacy in sidebar webSidebar, linking to the doc community/legal/privacy-policy"
+  }
+}

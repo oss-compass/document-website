@@ -1,4 +1,5 @@
 import React from 'react';
+import Translate from '@docusaurus/Translate';
 import { useLocation } from '@docusaurus/router';
 import { MdLanguage } from 'react-icons/md';
 import { useAlternatePageUtils } from '@site/src/common/useAlternatePageUtils';
@@ -38,7 +39,7 @@ const ChangeLanguage = () => {
 
   return (
     <div className="group relative mx-5 flex h-full items-center transition">
-      <div className="flex h-[32px] cursor-pointer items-center justify-center border border-solid border-gray-200 px-2">
+      <div className="flex h-[32px] cursor-pointer items-center justify-center px-3 group-hover:bg-[#333333]">
         <MdLanguage className="mr-1 text-white" />
         <span className="mr-1 text-sm text-white">
           {localeLabel[currentLocale].value}
@@ -46,11 +47,11 @@ const ChangeLanguage = () => {
         <AiFillCaretDown className="text-white" />
       </div>
 
-      <div className="absolute top-[100%] z-dropdown hidden w-[120px] border-x-0 border-t-2 border-b border-solid bg-black/90 text-white group-hover:block">
+      <div className="absolute top-[100%] z-dropdown hidden w-[160px] border-solid border-x-0 border-t-2 bg-black/90 text-white group-hover:block">
         {localeItems.map((item) => (
           <a
             key={item.lang}
-            className="flex cursor-pointer items-center border-x-0 border-t-0 border-b border-solid border-white/30 py-3 pl-6 hover:bg-[#333333]"
+            className="flex cursor-pointer items-center border-x-0 border-t-0 border-b border-solid border-white/30 py-4 pl-6 hover:bg-[#333333]"
             href={item.to.replace('pathname://', '')}
           >
             {item.extra.label}

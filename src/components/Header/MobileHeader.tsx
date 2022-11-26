@@ -1,26 +1,9 @@
 import React, { PropsWithChildren } from 'react';
 import Link from '@docusaurus/Link';
+import Translate, { translate } from '@docusaurus/Translate';
 import { AiOutlineMenu, AiOutlineClose, AiOutlineHome } from 'react-icons/ai';
 import { useToggle } from 'react-use';
 import Drawer from '../Drawer';
-
-const headLinks = [
-  {
-    title: 'Metrics Models',
-    href: '/docs/dimensions-define',
-    icon: <AiOutlineHome />,
-  },
-  {
-    title: 'Community',
-    href: '/docs/community',
-    icon: <AiOutlineHome />,
-  },
-  {
-    title: 'About',
-    href: '/docs/about',
-    icon: <AiOutlineHome />,
-  },
-];
 
 const MenuItem: React.FC<
   PropsWithChildren<{ title: string; href: string }>
@@ -38,6 +21,23 @@ const MenuItem: React.FC<
 
 const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
   const [show, toggle] = useToggle(false);
+  const headLinks = [
+    {
+      title: translate({ id: 'header.metrics_models' }),
+      href: '/dimensions-define',
+      icon: <AiOutlineHome />,
+    },
+    {
+      title: translate({ id: 'header.community' }),
+      href: '/community',
+      icon: <AiOutlineHome />,
+    },
+    {
+      title: translate({ id: 'header.about' }),
+      href: '/about',
+      icon: <AiOutlineHome />,
+    },
+  ];
 
   return (
     <>
@@ -54,12 +54,12 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
           <h1 className="text-base font-semibold">OSS compass</h1>
         </div>
         <div className="flex items-center">
-          <Link
+          <a
             href="/submit-your-project"
             className="cursor-pointer border border-solid border-black px-1 py-1 text-sm text-black "
           >
-            Submit your project
-          </Link>
+            <Translate id={'header.submit_your_project'} />
+          </a>
         </div>
       </div>
 

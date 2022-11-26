@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
-import LogoWhite from './logo-white.svg';
-import LogoBlack from './logo-black.svg';
+import LogoBlack from './svgs/compass-black.svg';
+import LogoWhite from './svgs/compass-white.svg';
 
 const Logo: React.FC<{ className?: string; color?: 'black' | 'white' }> = ({
   className,
