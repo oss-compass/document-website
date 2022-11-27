@@ -8,6 +8,9 @@
 .docusaurus
 .cache-loader
 
+# IDE Config
+.vscode
+
 # Misc
 .DS_Store
 .env.local
@@ -23,10 +26,4 @@ package-lock.json
 
 docdir
 
-i18n/**
-!i18n/en/
-!i18n/en/code.json
-!i18n/en/docusaurus-plugin-content-docs/
-!i18n/en/docusaurus-plugin-content-docs/current.json
-!i18n/en/docusaurus-theme-classic/
-!i18n/en/docusaurus-theme-classic/footer.json
+i18n
