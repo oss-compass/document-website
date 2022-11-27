@@ -26,4 +26,5 @@ package-lock.json
 
 docdir
 
-i18n
+# i18n files
+/i18n
