@@ -2,7 +2,7 @@ name: Publish image
 
 on:
   workflow_run:
-    workflows: [Build]
+    workflows: [Build and sync]
     types: [completed]
     branches: [main]
 
