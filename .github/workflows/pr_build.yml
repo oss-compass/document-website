@@ -1,7 +1,7 @@
-name: Build and sync
+name: PR Build
 
 on:
-  push:
+  pull_request:
     branches:
       - 'main'
 
@@ -21,15 +21,6 @@ jobs:
           cache: 'yarn'
           registry-url: https://registry.npmjs.org/
       - run: yarn install --frozen-lockfile # optional, --immutable
-      - run: yarn crowdin:sync
-      - run: sleep 5 # wait for crowdin to sync
       - run: yarn crowdin:pull
       - run: yarn crowdin:copy
       - run: yarn build
-
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: build
-          path: |
-            build
