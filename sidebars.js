@@ -44,7 +44,7 @@ const sidebars = {
           },
           items: [
             { type: 'doc', label: 'Overview', id: 'docs/metrics-models/productivity/README' },
-            { type: 'doc', id: 'docs/metrics-models/productivity/code/code-quality-guarantee' },
+            { type: 'doc', id: 'docs/metrics-models/productivity/collaboration-development-index' },
             { type: 'doc', id: 'docs/metrics-models/productivity/community-service-and-support' },
             { type: 'doc', id: 'docs/metrics-models/productivity/code/code-compliance-guarantee' },
             { type: 'doc', id: 'docs/metrics-models/productivity/code/code-security-guarantee' },
