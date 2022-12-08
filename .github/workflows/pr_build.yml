@@ -21,6 +21,5 @@ jobs:
           cache: 'yarn'
           registry-url: https://registry.npmjs.org/
       - run: yarn install --frozen-lockfile # optional, --immutable
-      - run: yarn crowdin:pull
       - run: yarn copy
       - run: yarn build

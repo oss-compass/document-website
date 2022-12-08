@@ -27,4 +27,5 @@ package-lock.json
 docdir
 
 # i18n files
-/i18n
+i18n/en/docusaurus-plugin-content-docs/current
+i18n/zh/docusaurus-plugin-content-docs/current

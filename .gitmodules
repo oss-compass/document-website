@@ -6,7 +6,7 @@
 	path = modules/docs
 	url = git@github.com:oss-compass/docs.git
 	branch = main
-[submodule "modules/docs-zh"]
-	path = modules/docs-zh
+[submodule "localization_repos/docs-zh"]
+	path = localization_repos/docs-zh
 	url = git@github.com:oss-compass/docs-zh.git
-    branch = main
+	branch = main

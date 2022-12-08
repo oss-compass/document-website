@@ -1,0 +1,82 @@
+{
+  "version.label": {
+    "message": "下篇文档",
+    "description": "The label for version current"
+  },
+  "sidebar.webSidebar.category.Ecosystem Evaluation System": {
+    "message": "开源生态评估体系",
+    "description": "The label for category Ecosystem Evaluation System in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Ecosystem Evaluation System.link.generated-index.description": {
+    "message": "开源生态是用来描述站在生态学背景下的开源社区的健康状态。我们创建了三个最高级别的维度来描述开源生态评估：生产力、稳健性和创新力。",
+    "description": "The generated-index page description for category Ecosystem Evaluation System in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Productivity": {
+    "message": "生产力",
+    "description": "The label for category Productivity in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Productivity.link.generated-index.description": {
+    "message": "一个开源生态将投入转化为产出的能力。",
+    "description": "The generated-index page description for category Productivity in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Robustness": {
+    "message": "稳健性",
+    "description": "The label for category Robustness in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Robustness.link.generated-index.description": {
+    "message": "生态系统面对内部或者外部冲突自我恢复的能力。",
+    "description": "The generated-index page description for category Robustness in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Niche Creation": {
+    "message": "创新力",
+    "description": "The label for category Niche Creation in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Niche Creation.link.generated-index.description": {
+    "message": "社区生态具有持续创造多样性创新的能力，并成为社区生态向前演进的动力。",
+    "description": "The generated-index page description for category Niche Creation in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Community": {
+    "message": "社区交流",
+    "description": "The label for category Community in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Community.link.generated-index.description": {
+    "message": "加入开源指南针社区交流",
+    "description": "The generated-index page description for category Community in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Legal": {
+    "message": "法律合规",
+    "description": "The label for category Legal in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.link.GitHub": {
+    "message": "GitHub",
+    "description": "The label for link GitHub in sidebar webSidebar, linking to https://github.com/oss-compass"
+  },
+  "sidebar.webSidebar.link.Gitee": {
+    "message": "Gitee",
+    "description": "The label for link Gitee in sidebar webSidebar, linking to https://gitee.com/oss-compass"
+  },
+  "sidebar.webSidebar.doc.Quick Start": {
+    "message": "快速入门",
+    "description": "The label for the doc item Quick Start in sidebar webSidebar, linking to the doc community/quick-start"
+  },
+  "sidebar.webSidebar.doc.Overview": {
+    "message": "概览",
+    "description": "The label for the doc item Overview in sidebar webSidebar, linking to the doc docs/metrics-models/niche-creation/README"
+  },
+  "sidebar.webSidebar.doc.Slack": {
+    "message": "Slack 频道",
+    "description": "The label for the doc item Slack in sidebar webSidebar, linking to the doc community/community/slack"
+  },
+  "sidebar.webSidebar.doc.WeChat": {
+    "message": "微信交流群",
+    "description": "The label for the doc item WeChat in sidebar webSidebar, linking to the doc community/community/wechat"
+  },
+  "sidebar.webSidebar.doc.Terms": {
+    "message": "使用条款",
+    "description": "The label for the doc item Terms in sidebar webSidebar, linking to the doc community/legal/terms-of-use"
+  },
+  "sidebar.webSidebar.doc.Privacy": {
+    "message": "隐私政策",
+    "description": "The label for the doc item Privacy in sidebar webSidebar, linking to the doc community/legal/privacy-policy"
+  }
+}
