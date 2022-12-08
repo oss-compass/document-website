@@ -22,5 +22,5 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: yarn install --frozen-lockfile # optional, --immutable
       - run: yarn crowdin:pull
-      - run: yarn crowdin:copy
+      - run: yarn copy
       - run: yarn build

@@ -24,7 +24,7 @@ jobs:
       - run: yarn crowdin:sync
       - run: sleep 5 # wait for crowdin to sync
       - run: yarn crowdin:pull
-      - run: yarn crowdin:copy
+      - run: yarn copy
       - run: yarn build
 
       - name: Archive production artifacts
