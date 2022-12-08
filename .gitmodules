@@ -1,8 +1,12 @@
 [submodule "modules/community"]
 	path = modules/community
-	url = https://github.com/oss-compass/community.git
+	url = git@github.com:oss-compass/community.git
 	branch = main
 [submodule "modules/docs"]
 	path = modules/docs
-	url = https://github.com/oss-compass/docs.git
+	url = git@github.com:oss-compass/docs.git
 	branch = main
+[submodule "modules/docs-zh"]
+	path = modules/docs-zh
+	url = git@github.com:oss-compass/docs-zh.git
+    branch = main
