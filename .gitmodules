@@ -10,3 +10,7 @@
 	path = localization_repos/docs-zh
 	url = git@github.com:oss-compass/docs-zh.git
 	branch = main
+[submodule "localization_repos/community-zh"]
+	path = localization_repos/community-zh
+	url = https://github.com/oss-compass/community.git
+	branch = i18n_zh
