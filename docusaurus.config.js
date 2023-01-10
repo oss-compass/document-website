@@ -40,10 +40,16 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // Advanced use-case: functional editUrl
-          editUrl: ({ versionDocsDirPath, docPath }) => {
+          editUrl: (editUrlParams) => {
+            const { docPath, locale } = editUrlParams;
             const repo = docPath.split('/').shift();
             const file = docPath.split('/').splice(1).join('/');
-            return `https://github.com/oss-compass/${repo}/blob/main/${file}`;
+
+            let repo_slug = repo;
+            if (locale !== 'en') {
+              repo_slug = `${repo}-${locale}`;
+            }
+            return `https://github.com/oss-compass/${repo_slug}/blob/main/${file}`;
           },
         },
         // blog: {
