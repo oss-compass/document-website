@@ -5,9 +5,28 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineHome } from 'react-icons/ai';
 import { useToggle } from 'react-use';
 import Drawer from '../Drawer';
 
+interface LinkProps {
+  title: string;
+  href: string;
+  icon: React.ReactNode;
+  legacyBehavior?: boolean;
+}
+
 const MenuItem: React.FC<
-  PropsWithChildren<{ title: string; href: string }>
-> = ({ title, href, children }) => {
+  PropsWithChildren<{ title: string; href: string; legacyBehavior?: boolean }>
+> = ({ title, href, children, legacyBehavior = false }) => {
+  if (legacyBehavior) {
+    return (
+      <a
+        href={href}
+        className="flex cursor-pointer items-center py-2 px-6 hover:bg-gray-200"
+      >
+        {children}
+        <h2 className="pl-2 text-base font-semibold">{title}</h2>
+      </a>
+    );
+  }
+
   return (
     <Link
       href={href}
@@ -21,21 +40,27 @@ const MenuItem: React.FC<
 
 const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
   const [show, toggle] = useToggle(false);
-  const headLinks = [
+  const headLinks: LinkProps[] = [
+    {
+      title: translate({ id: 'header.home' }),
+      href: '/',
+      icon: null,
+      legacyBehavior: true,
+    },
     {
       title: translate({ id: 'header.metrics_models' }),
       href: '/dimensions-define',
-      icon: <AiOutlineHome />,
+      icon: null,
     },
     {
       title: translate({ id: 'header.community' }),
       href: '/community',
-      icon: <AiOutlineHome />,
+      icon: null,
     },
     {
       title: translate({ id: 'header.about' }),
       href: '/about',
-      icon: <AiOutlineHome />,
+      icon: null,
     },
   ];
 
@@ -84,7 +109,12 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
           >
             {headLinks.map((item) => {
               return (
-                <MenuItem key={item.title} title={item.title} href={item.href}>
+                <MenuItem
+                  key={item.title}
+                  title={item.title}
+                  href={item.href}
+                  legacyBehavior={item.legacyBehavior}
+                >
                   {item.icon}
                 </MenuItem>
               );

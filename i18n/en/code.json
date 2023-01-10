@@ -1,4 +1,7 @@
 {
+  "header.home": {
+    "message": "Home"
+  },
   "header.metrics_models": {
     "message": "Metrics Models"
   },
