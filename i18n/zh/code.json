@@ -12,31 +12,31 @@
     "message": "关于"
   },
   "header.submit_your_project": {
-    "message": "Submit your project"
+    "message": "提交项目"
   },
   "community.slack": {
     "message": "Slack"
   },
   "community.join_slack": {
-    "message": "Join our community channel on Slack"
+    "message": "加入 Slack 频道"
   },
   "community.wechat": {
-    "message": "WeChat"
+    "message": "微信"
   },
   "community.join_wechat": {
-    "message": "Scan our group chat QR code to join"
+    "message": "加入微信群"
   },
   "community.github": {
     "message": "GitHub"
   },
   "community.official_repository_on_github": {
-    "message": "Official repository on GitHub"
+    "message": "官方 GitHub 仓库"
   },
   "community.gitee": {
     "message": "Gitee"
   },
   "community.official_repository_on_gitee": {
-    "message": "Official repository on Gitee"
+    "message": "官方 Gitee 仓库"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
     "message": "Toggle the collapsible sidebar category '{label}'",
