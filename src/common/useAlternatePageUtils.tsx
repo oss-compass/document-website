@@ -34,13 +34,6 @@ export function useAlternatePageUtils(): {
 
   const pathnameSuffix = pathname.replace(baseUrl, '');
 
-  console.log({
-    baseUrlUnlocalized,
-    pathnameSuffix,
-    defaultLocale,
-    currentLocale,
-  });
-
   function getLocalizedBaseUrl(locale: string) {
     return locale === defaultLocale
       ? `${baseUrlUnlocalized}`
