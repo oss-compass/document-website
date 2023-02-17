@@ -29,6 +29,12 @@ const Header: React.FC<{
               <Logo color="white" />
             </a>
 
+            <a href="/explore">
+              <span className={'mx-6 px-2.5 font-medium text-white'}>
+                <Translate id={'header.explore'} />
+              </span>
+            </a>
+
             <Link href="/dimensions-define">
               <span className={'mx-6 px-2.5 font-medium text-white'}>
                 <Translate id={'header.metrics_models'} />
@@ -37,11 +43,11 @@ const Header: React.FC<{
 
             <CommunityDropdown />
 
-            <Link href="/about">
+            <a href="/about">
               <span className={'mx-6 px-2.5 font-medium text-white'}>
                 <Translate id={'header.about'} />
               </span>
-            </Link>
+            </a>
           </div>
 
           <div className="flex h-full cursor-pointer items-center">
@@ -68,7 +74,7 @@ const Header: React.FC<{
           </div>
         </div>
       </div>
-      <div className={classnames('bg-white >lg:hidden h-full')}>
+      <div className={classnames('h-full bg-white >lg:hidden')}>
         <MobileHeader>{mobileMenu}</MobileHeader>
       </div>
     </header>

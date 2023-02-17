@@ -2,6 +2,9 @@
   "header.home": {
     "message": "首页"
   },
+  "header.explore": {
+    "message": "探索"
+  },
   "header.metrics_models": {
     "message": "评估模型"
   },

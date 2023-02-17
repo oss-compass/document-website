@@ -2,6 +2,9 @@
   "header.home": {
     "message": "Home"
   },
+  "header.explore": {
+    "message": "Explore"
+  },
   "header.metrics_models": {
     "message": "Metrics Models"
   },
