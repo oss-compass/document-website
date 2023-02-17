@@ -61,6 +61,7 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
       title: translate({ id: 'header.about' }),
       href: '/about',
       icon: null,
+      legacyBehavior: true,
     },
   ];
 
