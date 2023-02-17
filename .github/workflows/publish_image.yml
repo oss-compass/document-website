@@ -1,9 +1,7 @@
 name: Publish image
 
 on:
-  workflow_run:
-    workflows: [Build]
-    types: [completed]
+  push:
     branches:
       - 'release'
       - 'main'
@@ -16,12 +14,22 @@ jobs:
         with:
           submodules: 'recursive'
 
-      - name: Download artifact
-        id: download-artifact
-        uses: dawidd6/action-download-artifact@v2
+      - uses: actions/setup-node@v3
         with:
-          workflow: build.yml
-          workflow_conclusion: success
+          node-version: '16.x'
+          cache: 'yarn'
+          registry-url: https://registry.npmjs.org/
+
+      - run: yarn install --frozen-lockfile # optional, --immutable
+      - run: yarn copy
+      - run: yarn build
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: |
+            build
 
       - name: Docker meta
         id: meta
@@ -47,7 +55,7 @@ jobs:
           username: "${{ secrets.REGISTRY_USERNAME }}"
           password: "${{ secrets.REGISTRY_PASSWORD }}"
 
-      - name: Build and push
+      - name: docker build and push
         uses: docker/build-push-action@v3
         with:
           context: .
