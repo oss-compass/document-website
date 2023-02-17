@@ -1,8 +1,9 @@
-name: Build and sync
+name: Build
 
 on:
   push:
     branches:
+      - 'release'
       - 'main'
 
 jobs:

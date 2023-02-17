@@ -2,16 +2,15 @@ name: Publish image
 
 on:
   workflow_run:
-    workflows: [Build and sync]
+    workflows: [Build]
     types: [completed]
-    branches: [main]
+    branches:
+      - 'release'
+      - 'main'
 
 jobs:
   publish-images:
     runs-on: ubuntu-latest
-    env:
-      CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-      CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -31,8 +30,9 @@ jobs:
           images: |
             registry.cn-hongkong.aliyuncs.com/oss-compass/compass-docs
           tags: |
-            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
-            type=sha
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'release') }}
+            type=raw,value=nightly,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
+            type=sha,prefix={{branch}}-
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
@@ -55,5 +55,4 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          build-args: |
-            GIT_COMMIT=${{ env.GITHUB_SHA }}
+          build-args: GIT_COMMIT=${{ github.sha }}

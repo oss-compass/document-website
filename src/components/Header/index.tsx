@@ -29,11 +29,11 @@ const Header: React.FC<{
               <Logo color="white" />
             </a>
 
-            {/*<a href="/explore">*/}
-            {/*  <span className={'mx-6 px-2.5 font-medium text-white'}>*/}
-            {/*    <Translate id={'header.explore'} />*/}
-            {/*  </span>*/}
-            {/*</a>*/}
+            <a href="/explore">
+              <span className={'mx-6 px-2.5 font-medium text-white'}>
+                <Translate id={'header.explore'} />
+              </span>
+            </a>
 
             <Link href="/dimensions-define">
               <span className={'mx-6 px-2.5 font-medium text-white'}>
