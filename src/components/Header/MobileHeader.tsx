@@ -48,6 +48,12 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
       legacyBehavior: true,
     },
     {
+      title: translate({ id: 'header.explore' }),
+      href: '/explore',
+      icon: null,
+      legacyBehavior: true,
+    },
+    {
       title: translate({ id: 'header.metrics_models' }),
       href: '/dimensions-define',
       icon: null,
