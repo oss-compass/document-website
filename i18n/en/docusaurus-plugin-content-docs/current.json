@@ -80,7 +80,7 @@
     "description": "The label for the doc item Privacy in sidebar webSidebar, linking to the doc community/legal/privacy-policy"
   },
   "sidebar.webSidebar.doc.Meetup": {
-    "message": "Meetup",
+    "message": "Weekly Meeting",
     "description": "The label for the doc item Meetup in sidebar webSidebar, linking to the doc community/community/meetup"
   },
   "sidebar.webSidebar.doc.Participating Contribution": {
