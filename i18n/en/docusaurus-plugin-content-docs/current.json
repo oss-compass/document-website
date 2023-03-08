@@ -78,5 +78,13 @@
   "sidebar.webSidebar.doc.Privacy": {
     "message": "Privacy",
     "description": "The label for the doc item Privacy in sidebar webSidebar, linking to the doc community/legal/privacy-policy"
+  },
+  "sidebar.webSidebar.doc.Meetup": {
+    "message": "Meetup",
+    "description": "The label for the doc item Meetup in sidebar webSidebar, linking to the doc community/community/meetup"
+  },
+  "sidebar.webSidebar.doc.Participating Contribution": {
+    "message": "Participating Contribution",
+    "description": "The label for the doc item Participating Contribution in sidebar webSidebar, linking to the doc community/CONTRIBUTING"
   }
 }

@@ -109,10 +109,13 @@ const sidebars = {
       items: [
         { type: 'link', label: 'GitHub', href: 'https://github.com/oss-compass' },
         { type: 'link', label: 'Gitee', href: 'https://gitee.com/oss-compass' },
+        { type: 'doc', label: 'Meetup', id: 'community/community/meetup' },
         { type: 'doc', label: 'Slack', id: 'community/community/slack' },
         { type: 'doc', label: 'WeChat', id: 'community/community/wechat' },
       ],
     },
+
+    { type: 'doc', label: 'Participating Contribution', id: 'community/CONTRIBUTING' },
 
     {
       type: 'category',
