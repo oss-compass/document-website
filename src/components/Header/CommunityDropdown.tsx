@@ -10,7 +10,8 @@ import GiteeRed from '../svgs/gitee-red.svg';
 
 const itemClass =
   'flex cursor-pointer items-center py-4 pl-6 hover:bg-[#333333]';
-const borderClass = 'border-b border-x-0 border-t-0 border-solid border-white/20';
+const borderClass =
+  'border-b border-x-0 border-t-0 border-solid border-white/20';
 
 const CommunityDropdown = () => {
   return (
@@ -69,7 +70,7 @@ const CommunityDropdown = () => {
           </a>
         </li>
 
-        <li className={classnames(itemClass)}>
+        <li className={classnames(itemClass, borderClass)}>
           <div className="mr-4 w-8">
             <GiteeRed />
           </div>
@@ -85,6 +86,24 @@ const CommunityDropdown = () => {
               <Translate id="community.official_repository_on_gitee" />
             </div>
           </a>
+        </li>
+
+        <li className={classnames(itemClass)}>
+          <div className="mr-4 w-8">
+            <img
+              className="h-full w-full"
+              src="img/tencentMeeting.png"
+              alt=""
+            />
+          </div>
+          <Link href="/docs/community/metting/">
+            <div className="text-base">
+              <Translate id="community.meeting" />
+            </div>
+            <div className="text-sm text-white/50">
+              <Translate id="community.join_meeting" />
+            </div>
+          </Link>
         </li>
       </ul>
     </div>

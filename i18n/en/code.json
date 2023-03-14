@@ -41,6 +41,12 @@
   "community.official_repository_on_gitee": {
     "message": "Official repository on Gitee"
   },
+  "community.meeting": {
+    "message": "Weekly Meeting"
+  },
+  "community.join_meeting": {
+    "message": "Technical Seminar Weekly Meeting"
+  },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
     "message": "Toggle the collapsible sidebar category '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"

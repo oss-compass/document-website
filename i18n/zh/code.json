@@ -41,6 +41,12 @@
   "community.official_repository_on_gitee": {
     "message": "官方 Gitee 仓库"
   },
+  "community.meeting": {
+    "message": "腾讯会议"
+  },
+  "community.join_meeting": {
+    "message": "技术研讨周会"
+  },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
     "message": "Toggle the collapsible sidebar category '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
