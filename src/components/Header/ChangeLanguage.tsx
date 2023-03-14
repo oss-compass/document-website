@@ -1,10 +1,12 @@
-import React from 'react';
-import Translate from '@docusaurus/Translate';
+import React, { useEffect } from 'react';
 import { useLocation } from '@docusaurus/router';
 import { MdLanguage } from 'react-icons/md';
 import { useAlternatePageUtils } from '@site/src/common/useAlternatePageUtils';
 import { AiFillCaretDown } from 'react-icons/ai';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Cookies from 'js-cookie';
+
+const USER_LOCALE_KEY = 'locale';
 
 const localeLabel = {
   zh: {
@@ -23,6 +25,15 @@ const ChangeLanguage = () => {
   const {
     i18n: { currentLocale, locales, localeConfigs },
   } = useDocusaurusContext();
+
+  useEffect(() => {
+    Cookies.set(USER_LOCALE_KEY, currentLocale, {
+      expires: 365,
+      path: '/',
+      domain: document.domain,
+    });
+  }, [currentLocale]);
+
   const { createUrl } = useAlternatePageUtils();
   const { search, hash } = useLocation();
 
@@ -47,7 +58,7 @@ const ChangeLanguage = () => {
         <AiFillCaretDown className="text-white" />
       </div>
 
-      <div className="absolute top-[100%] z-dropdown hidden w-[160px] border-solid border-x-0 border-t-2 bg-black/90 text-white group-hover:block">
+      <div className="absolute top-[100%] z-dropdown hidden w-[160px] border-x-0 border-t-2 border-solid bg-black/90 text-white group-hover:block">
         {localeItems.map((item) => (
           <a
             key={item.lang}
