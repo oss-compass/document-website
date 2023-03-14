@@ -2,6 +2,7 @@ import React from 'react';
 import classnames from 'classnames';
 import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import { AiFillCaretDown } from 'react-icons/ai';
 import Slack from '../svgs/slack.svg';
 import Wechat from '../svgs/wechat.svg';
@@ -92,7 +93,7 @@ const CommunityDropdown = () => {
           <div className="mr-4 w-8">
             <img
               className="h-full w-full"
-              src="img/tencentMeeting.png"
+              src={useBaseUrl('/img/tencentMeeting.png')}
               alt=""
             />
           </div>
