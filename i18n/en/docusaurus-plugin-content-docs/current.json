@@ -79,12 +79,12 @@
     "message": "Privacy",
     "description": "The label for the doc item Privacy in sidebar webSidebar, linking to the doc community/legal/privacy-policy"
   },
-  "sidebar.webSidebar.doc.Meetup": {
-    "message": "Weekly Meeting",
-    "description": "The label for the doc item Meetup in sidebar webSidebar, linking to the doc community/community/meetup"
-  },
   "sidebar.webSidebar.doc.Participating Contribution": {
     "message": "Participating Contribution",
     "description": "The label for the doc item Participating Contribution in sidebar webSidebar, linking to the doc community/CONTRIBUTING"
+  },
+  "sidebar.webSidebar.doc.Weekly Meeting": {
+    "message": "Weekly Meeting",
+    "description": "The label for the doc item Weekly Meeting in sidebar webSidebar, linking to the doc community/community/metting"
   }
 }
