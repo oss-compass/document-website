@@ -97,7 +97,7 @@ const CommunityDropdown = () => {
               alt=""
             />
           </div>
-          <Link href="/docs/community/metting/">
+          <Link href="/community/metting/">
             <div className="text-base">
               <Translate id="community.meeting" />
             </div>
