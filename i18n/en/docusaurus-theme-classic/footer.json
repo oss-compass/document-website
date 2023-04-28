@@ -52,7 +52,7 @@
     "description": "The label of footer link with label=Gitee linking to https://gitee.com/oss-compass"
   },
   "copyright": {
-    "message": "Copyright©2022 OSS compass. All Rights Reserved.",
+    "message": "Copyright © 2023 OSS compass. All Rights Reserved.",
     "description": "The footer copyright"
   }
 }
