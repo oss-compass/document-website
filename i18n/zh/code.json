@@ -17,6 +17,15 @@
   "header.submit_your_project": {
     "message": "提交项目"
   },
+  "header.signin": {
+    "message": "登录"
+  },
+  "header.profile_setting": {
+    "message": "账号设置"
+  },
+  "header.signout": {
+    "message": "退出"
+  },
   "community.slack": {
     "message": "Slack"
   },

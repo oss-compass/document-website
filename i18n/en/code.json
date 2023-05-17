@@ -17,6 +17,15 @@
   "header.submit_your_project": {
     "message": "Submit your project"
   },
+  "header.signin": {
+    "message": "Signin"
+  },
+  "header.profile_setting": {
+    "message": "Account Settings"
+  },
+  "header.signout": {
+    "message": "Signout"
+  },
   "community.slack": {
     "message": "Slack"
   },
