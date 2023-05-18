@@ -7,6 +7,7 @@ import SubmitYouProject from './SubmitYouProject';
 import MobileHeader from './MobileHeader';
 import CommunityDropdown from './CommunityDropdown';
 import ChangeLanguage from './ChangeLanguage';
+import User from './User';
 
 import LogoGitee from '../svgs/gitee-red.svg';
 import LogoGithub from '../svgs/github.svg';
@@ -29,48 +30,32 @@ const Header: React.FC<{
               <Logo color="white" />
             </a>
 
-            <a href="/explore">
-              <span className={'mx-6 px-2.5 font-medium text-white'}>
-                <Translate id={'header.explore'} />
-              </span>
+            <a href="/explore" className={'mx-6 px-2.5 font-medium text-white'}>
+              <Translate id={'header.explore'} />
             </a>
 
-            <Link href="/dimensions-define">
-              <span className={'mx-6 px-2.5 font-medium text-white'}>
-                <Translate id={'header.metrics_models'} />
-              </span>
+            <Link
+              href="/dimensions-define"
+              className={'mx-6 px-2.5 font-medium text-white'}
+            >
+              <Translate id={'header.metrics_models'} />
             </Link>
 
             <CommunityDropdown />
 
-            <a href="/about">
-              <span className={'mx-6 px-2.5 font-medium text-white'}>
-                <Translate id={'header.about'} />
-              </span>
+            <a href="/lab" className={'mx-6 px-2.5 font-medium text-white'}>
+              Lab
+            </a>
+
+            <a href="/about" className={'mx-6 px-2.5 font-medium text-white'}>
+              <Translate id={'header.about'} />
             </a>
           </div>
 
-          <div className="flex h-full cursor-pointer items-center">
-            <div className="mx-5">
-              <Link
-                href="https://gitee.com/oss-compass"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <LogoGitee />
-              </Link>
-            </div>
-            <div className="mx-5 cursor-pointer">
-              <Link
-                href="https://github.com/oss-compass"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <LogoGithub />
-              </Link>
-            </div>
+          <div className="flex h-full items-center">
             <ChangeLanguage />
             <SubmitYouProject />
+            <User />
           </div>
         </div>
       </div>
