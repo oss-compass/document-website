@@ -18,7 +18,7 @@
     "message": "Submit your project"
   },
   "header.signin": {
-    "message": "Signin"
+    "message": "Sign In"
   },
   "header.subscribe": {
     "message": "My Subscription"
@@ -27,7 +27,7 @@
     "message": "Account Settings"
   },
   "header.signout": {
-    "message": "Signout"
+    "message": "Sign Out"
   },
   "community.slack": {
     "message": "Slack"
