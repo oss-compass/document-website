@@ -6,7 +6,7 @@ const Footer: React.FC<{ footerConfig: ThemeConfig['footer'] }> = ({
   footerConfig,
 }) => {
   return (
-    <footer className="bg-[#f9fafb]">
+    <footer className="tailwind bg-[#f9fafb]">
       <div className="mx-auto w-[1200px] lg:w-full">
         <FooterLinks footerConfig={footerConfig} />
       </div>

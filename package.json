@@ -43,9 +43,11 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tsconfig/docusaurus": "^1.0.5",
     "autoprefixer": "^10.4.12",
+    "docusaurus-plugin-sass": "^0.2.3",
     "postcss": "^8.4.18",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
+    "sass": "^1.62.1",
     "tailwindcss": "^3.2.1",
     "typescript": "^4.7.4"
   },

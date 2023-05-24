@@ -20,6 +20,9 @@
   "header.signin": {
     "message": "Signin"
   },
+  "header.subscribe": {
+    "message": "My Subscription"
+  },
   "header.profile_setting": {
     "message": "Account Settings"
   },
