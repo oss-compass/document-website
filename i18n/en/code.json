@@ -18,13 +18,16 @@
     "message": "Submit your project"
   },
   "header.signin": {
-    "message": "Signin"
+    "message": "Sign In"
+  },
+  "header.subscribe": {
+    "message": "My Subscriptions"
   },
   "header.profile_setting": {
-    "message": "Account Settings"
+    "message": "Account Setting"
   },
   "header.signout": {
-    "message": "Signout"
+    "message": "Sign Out"
   },
   "community.slack": {
     "message": "Slack"

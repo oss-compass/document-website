@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
+  important: true,
   content: ['./src/**/*.{jsx,tsx}'],
   theme: {
     // https://tailwindcss.com/docs/screens#max-width-breakpoints

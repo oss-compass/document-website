@@ -20,6 +20,9 @@
   "header.signin": {
     "message": "登录"
   },
+  "header.subscribe": {
+    "message": "我的订阅"
+  },
   "header.profile_setting": {
     "message": "账号设置"
   },

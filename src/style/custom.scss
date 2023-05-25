@@ -1,4 +1,7 @@
-@tailwind base;
+.tailwind {
+    @import "./preflight.scss";
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -49,7 +52,7 @@
     --ifm-heading-margin-bottom: 5px;
 }
 
-.custom-mobile-nav{
+.custom-mobile-nav {
     --ifm-link-color: #000;
     --ifm-link-hover-color: #000;
     --ifm-link-hover-decoration: none;
@@ -66,4 +69,10 @@
 
 .theme-doc-footer-edit-meta-row svg {
     display: inline-block;
+}
+
+.theme-doc-sidebar-menu {
+  .menu__link {
+    font-size: 14px;
+  }
 }

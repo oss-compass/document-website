@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Translate from '@docusaurus/Translate';
 import { AiOutlineUser } from 'react-icons/ai';
+import { FiBookmark } from 'react-icons/fi';
 import { MdOutlineLogout } from 'react-icons/md';
 import {
   fetchUserInfo,
@@ -17,9 +18,6 @@ const User = () => {
     loginBinds: user?.currentUser?.loginBinds,
     provider,
   });
-
-  console.log(provider);
-  console.log(info);
 
   React.useEffect(() => {
     fetchUserInfo().then((data: any) => {
@@ -40,16 +38,18 @@ const User = () => {
   return (
     <div className="group relative flex h-full items-center pl-6 transition">
       <div className="flex h-[32px] cursor-pointer items-center justify-center overflow-hidden rounded-full group-hover:bg-[#333333]">
-        <img src={info.avatarUrl!} width={32} height={32} alt="" />
+        <img src={info?.avatarUrl!} width={32} height={32} alt="" />
       </div>
 
       <div className="absolute top-[100%] -right-4 z-dropdown hidden w-auto group-hover:block">
         <div className="mt-[2px] bg-black/90 text-white">
-          {/*<Link href="/settings/subscribe">*/}
-          {/*  <a className="flex cursor-pointer border-b border-white/20 py-4 pl-6 text-center last:border-b-0 hover:bg-[#333333]">*/}
-          {/*    {t('common:subscribe')}*/}
-          {/*  </a>*/}
-          {/*</Link>*/}
+          <a
+            href="/settings/subscribe"
+            className="flex cursor-pointer items-center whitespace-nowrap border-b border-white/20 py-4 px-6 text-center last:border-b-0 hover:bg-[#333333]"
+          >
+            <FiBookmark className="mr-2 text-base" />
+            <Translate id={'header.subscribe'} />
+          </a>
 
           <a
             href="/settings/profile"

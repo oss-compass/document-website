@@ -61,12 +61,12 @@ const config = {
         // },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/style/custom.scss')],
         },
       }),
     ],
   ],
-  plugins: ['./plugin/postcss-tailwind-loader'],
+  plugins: ['docusaurus-plugin-sass', './plugin/postcss-tailwind-loader'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -101,7 +101,7 @@ const config = {
           {
             title: 'Community',
             items: [
-              { label: 'Slack', href: '/community/slack', },
+              { label: 'Slack', href: '/community/slack' },
               { label: 'WeChat', href: '/community/wechat' },
             ],
           },

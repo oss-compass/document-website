@@ -17,7 +17,7 @@ const Header: React.FC<{
   className?: string;
 }> = ({ className, mobileMenu }) => {
   return (
-    <header className="w-full">
+    <header className="tailwind w-full">
       <div className={classnames('bg-black lg:hidden')}>
         <div
           className={classnames(
