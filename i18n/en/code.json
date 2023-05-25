@@ -21,10 +21,10 @@
     "message": "Sign In"
   },
   "header.subscribe": {
-    "message": "My Subscription"
+    "message": "My Subscriptions"
   },
   "header.profile_setting": {
-    "message": "Account Settings"
+    "message": "Account Setting"
   },
   "header.signout": {
     "message": "Sign Out"
