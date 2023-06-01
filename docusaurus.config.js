@@ -4,12 +4,14 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const vercel = process.env.VERCEL_ENV === 'preview';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OSS compass',
   tagline: '',
   url: 'https://compass.gitee.com',
-  baseUrl: '/docs/',
+  baseUrl: vercel ? '/' : '/docs/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

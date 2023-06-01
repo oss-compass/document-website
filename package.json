@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "vercel-install": "vercel-submodules --all && yarn install",
+    "vercel-install": "yarn install && yarn vercel-submodules --all",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "start:zh": "docusaurus start --locale zh",
