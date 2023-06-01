@@ -1,13 +1,14 @@
 import React, { PropsWithChildren } from 'react';
 import classnames from 'classnames';
 import { useLockBodyScroll } from 'react-use';
+import * as Portal from '@radix-ui/react-portal';
 
 const Drawer: React.FC<
   PropsWithChildren<{ visible: boolean; onClose: () => void }>
 > = ({ visible, onClose, children }) => {
   useLockBodyScroll(visible);
   return (
-    <>
+    <Portal.Root className="tailwind portal">
       {/* backdrop  */}
       <div
         className={classnames(
@@ -28,7 +29,7 @@ const Drawer: React.FC<
       >
         {visible && <div>{children}</div>}
       </div>
-    </>
+    </Portal.Root>
   );
 };
 

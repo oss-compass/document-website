@@ -19,7 +19,7 @@ const MenuItem: React.FC<
     return (
       <a
         href={href}
-        className="flex cursor-pointer items-center py-2 px-6 hover:bg-gray-200"
+        className="flex cursor-pointer items-center py-2 px-6 text-black hover:bg-gray-200"
       >
         {children}
         <h2 className="pl-2 text-base font-semibold">{title}</h2>
@@ -30,7 +30,7 @@ const MenuItem: React.FC<
   return (
     <Link
       href={href}
-      className="flex cursor-pointer items-center py-2 px-6 hover:bg-gray-200"
+      className="flex cursor-pointer items-center py-2 px-6 text-black hover:bg-gray-200"
     >
       {children}
       <h2 className="pl-2 text-base font-semibold">{title}</h2>

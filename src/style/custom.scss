@@ -1,4 +1,4 @@
-.tailwind {
+:where(.tailwind) {
     @import "./preflight.scss";
 }
 
