@@ -8,6 +8,7 @@ const Footer: React.FC<{ footerConfig: ThemeConfig['footer'] }> = ({
   return (
     <footer className="tailwind bg-[#f9fafb]">
       <div className="mx-auto w-[1200px] lg:w-full">
+        test
         <FooterLinks footerConfig={footerConfig} />
       </div>
     </footer>
