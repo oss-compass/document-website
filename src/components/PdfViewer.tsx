@@ -9,8 +9,11 @@ const PdfViewer = ({ pdfUrl }) => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
+  const [width, setWidth] = useState(0);
+
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
+    setWidth(document.getElementById('ResumeContainer').offsetWidth);
   };
 
   return (
@@ -23,6 +26,7 @@ const PdfViewer = ({ pdfUrl }) => {
       >
         {Array.from(new Array(numPages), (el, index) => (
           <Page
+            width={width}
             key={`page_${index + 1}`}
             pageNumber={index + 1}
             className={'PDFPage PDFPageOne'}
