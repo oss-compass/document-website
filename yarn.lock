@@ -4321,6 +4321,10 @@ function-bind@^1.1.1:
   resolved "https://registry.npmmirror.com/function-bind/-/function-bind-1.1.1.tgz"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
+fx@*:
+  version "28.0.0"
+  resolved "https://registry.npmmirror.com/fx/-/fx-28.0.0.tgz#67087b31377039bab42f51db32c8758ccb4708e8"
+  integrity sha512-vKQDA9g868cZiW8ulgs2uN1yx1i7/nsS33jTMOxekk0Z03BJLffVcdW6AVD32fWb3E6RtmWWuBXBZOk8cLXFNQ==
 
 gauge@^3.0.0:
   version "3.0.2"
@@ -4336,12 +4340,6 @@ gauge@^3.0.0:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
     wide-align "^1.1.2"
-
-fx@*:
-  version "28.0.0"
-  resolved "https://registry.npmmirror.com/fx/-/fx-28.0.0.tgz#67087b31377039bab42f51db32c8758ccb4708e8"
-  integrity sha512-vKQDA9g868cZiW8ulgs2uN1yx1i7/nsS33jTMOxekk0Z03BJLffVcdW6AVD32fWb3E6RtmWWuBXBZOk8cLXFNQ==
-
 
 gensync@^1.0.0-beta.1, gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
@@ -5771,13 +5769,6 @@ node-fetch@2.6.7, node-fetch@^2.5.0:
   dependencies:
     whatwg-url "^5.0.0"
 
-node-fetch@^2.6.7:
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.11.tgz#cde7fc71deef3131ef80a738919f999e6edfff25"
-  integrity sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==
-  dependencies:
-    whatwg-url "^5.0.0"
-
 node-fetch@3.3.1:
   version "3.3.1"
   resolved "https://registry.npmmirror.com/node-fetch/-/node-fetch-3.3.1.tgz#b3eea7b54b3a48020e46f4f88b9c5a7430d20b2e"
@@ -5786,6 +5777,13 @@ node-fetch@3.3.1:
     data-uri-to-buffer "^4.0.0"
     fetch-blob "^3.1.4"
     formdata-polyfill "^4.0.10"
+
+node-fetch@^2.6.7:
+  version "2.6.11"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.11.tgz#cde7fc71deef3131ef80a738919f999e6edfff25"
+  integrity sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-forge@^1:
   version "1.3.1"
@@ -6144,6 +6142,13 @@ path2d-polyfill@^2.0.1:
   resolved "https://registry.yarnpkg.com/path2d-polyfill/-/path2d-polyfill-2.0.1.tgz#24c554a738f42700d6961992bf5f1049672f2391"
   integrity sha512-ad/3bsalbbWhmBo0D6FZ4RNMwsLsPpL6gnvhuSaU5Vm7b06Kr5ubSltQQ0T7YKsiJQO+g22zJ4dJKNTXIyOXtA==
 
+pause-stream@0.0.11:
+  version "0.0.11"
+  resolved "https://registry.npmmirror.com/pause-stream/-/pause-stream-0.0.11.tgz#fe5a34b0cbce12b5aa6a2b403ee2e73b602f1445"
+  integrity sha512-e3FBlXLmN/D1S+zHzanP4E/4Z60oFAa3O051qt1pxa7DEJWKAyil6upYVXCWadEnuoqa4Pkc9oUx9zsxYeRv8A==
+  dependencies:
+    through "~2.3"
+
 pdfjs-dist@3.6.172:
   version "3.6.172"
   resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-3.6.172.tgz#f9efdfc5e850e1fecfc70b7f6f45c5dc990d8096"
@@ -6153,13 +6158,6 @@ pdfjs-dist@3.6.172:
     web-streams-polyfill "^3.2.1"
   optionalDependencies:
     canvas "^2.11.2"
-
-pause-stream@0.0.11:
-  version "0.0.11"
-  resolved "https://registry.npmmirror.com/pause-stream/-/pause-stream-0.0.11.tgz#fe5a34b0cbce12b5aa6a2b403ee2e73b602f1445"
-  integrity sha512-e3FBlXLmN/D1S+zHzanP4E/4Z60oFAa3O051qt1pxa7DEJWKAyil6upYVXCWadEnuoqa4Pkc9oUx9zsxYeRv8A==
-  dependencies:
-    through "~2.3"
 
 pend@~1.2.0:
   version "1.2.0"
@@ -8323,7 +8321,7 @@ web-namespaces@^1.0.0:
   resolved "https://registry.npmmirror.com/web-namespaces/-/web-namespaces-1.1.4.tgz"
   integrity sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==
 
-web-streams-polyfill@^3.2.1:
+web-streams-polyfill@^3.0.3, web-streams-polyfill@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/web-streams-polyfill/-/web-streams-polyfill-3.2.1.tgz#71c2718c52b45fd49dbeee88634b3a60ceab42a6"
   integrity sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==
@@ -8488,18 +8486,19 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-wide-align@^1.1.2:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/wide-align/-/wide-align-1.1.5.tgz#df1d4c206854369ecf3c9a4898f1b23fbd9d15d3"
-  integrity sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==
-  dependencies:
-    string-width "^1.0.2 || 2 || 3 || 4"
 which@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npmmirror.com/which/-/which-3.0.1.tgz#89f1cd0c23f629a8105ffe69b8172791c87b4be1"
   integrity sha512-XA1b62dzQzLfaEOSQFTCOd5KFf/1VSzZo7/7TUjnya6u0vGGKzU96UQBZTAThCb2j4/xjBAyii1OhRLJEivHvg==
   dependencies:
     isexe "^2.0.0"
+
+wide-align@^1.1.2:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/wide-align/-/wide-align-1.1.5.tgz#df1d4c206854369ecf3c9a4898f1b23fbd9d15d3"
+  integrity sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==
+  dependencies:
+    string-width "^1.0.2 || 2 || 3 || 4"
 
 widest-line@^3.1.0:
   version "3.1.0"
