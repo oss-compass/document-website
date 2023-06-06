@@ -68,7 +68,11 @@ const config = {
       }),
     ],
   ],
-  plugins: ['docusaurus-plugin-sass', './plugin/postcss-tailwind-loader'],
+  plugins: [
+    'docusaurus-plugin-sass',
+    './plugin/postcss-tailwind-loader',
+    './plugin/fix-canvas-node-error',
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
