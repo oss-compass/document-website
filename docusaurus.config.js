@@ -11,7 +11,7 @@ const config = {
   title: 'OSS compass',
   tagline: '',
   url: 'https://compass.gitee.com',
-  baseUrl: vercel ? '/' : '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -36,7 +36,8 @@ const config = {
       ({
         docs: {
           path: 'modules',
-          routeBasePath: '/',
+          routeBasePath: 'docs',
+          exclude: ['**/blog/**'],
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -53,14 +54,14 @@ const config = {
             return `https://github.com/oss-compass/${repo_slug}/blob/main/${file}`;
           },
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
-        blog: false,
+        blog: {
+          path: 'blog',
+          routeBasePath: 'blog',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         theme: {
           customCss: [require.resolve('./src/style/custom.scss')],
         },
