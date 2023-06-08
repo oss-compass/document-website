@@ -55,12 +55,12 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
     },
     {
       title: translate({ id: 'header.metrics_models' }),
-      href: '/dimensions-define',
+      href: '/docs/dimensions-define',
       icon: null,
     },
     {
       title: translate({ id: 'header.community' }),
-      href: '/community',
+      href: '/docs/community',
       icon: null,
     },
     {
