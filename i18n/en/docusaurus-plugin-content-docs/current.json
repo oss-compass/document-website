@@ -86,9 +86,5 @@
   "sidebar.webSidebar.doc.Weekly Meeting": {
     "message": "Weekly Meeting",
     "description": "The label for the doc item Weekly Meeting in sidebar webSidebar, linking to the doc community/community/metting"
-  },
-  "sidebar.webSidebar.doc.Event Materials": {
-    "message": "Event Materials",
-    "description": "The label for the doc item Event Materials in sidebar webSidebar, linking to the doc community/community/event-materials"
   }
 }

@@ -86,6 +86,9 @@ const config = {
       },
       navbar: {
         hideOnScroll: true,
+        items: [
+            {to: 'blog', label: 'Blog', position: 'left'}
+        ],
       },
       footer: {
         style: 'light',
