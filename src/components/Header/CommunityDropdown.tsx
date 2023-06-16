@@ -29,7 +29,7 @@ const CommunityDropdown = () => {
           <div className="mr-4 w-8">
             <Slack />
           </div>
-          <Link href="/community/slack">
+          <Link href="/docs/community/slack">
             <p className="text-base">
               <Translate id="community.slack" />
             </p>
@@ -43,7 +43,7 @@ const CommunityDropdown = () => {
           <div className="mr-4 w-8">
             <Wechat />
           </div>
-          <Link href="/community/wechat">
+          <Link href="/docs/community/wechat">
             <div className="text-base">
               <Translate id="community.wechat" />
             </div>
@@ -97,7 +97,7 @@ const CommunityDropdown = () => {
               alt=""
             />
           </div>
-          <Link href="/community/metting/">
+          <Link href="/docs/community/metting/">
             <div className="text-base">
               <Translate id="community.meeting" />
             </div>

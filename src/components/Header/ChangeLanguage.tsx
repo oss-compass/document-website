@@ -38,7 +38,7 @@ const ChangeLanguage = () => {
   const { search, hash } = useLocation();
 
   const localeItems = locales.map((locale) => {
-    const baseTo = `pathname://${createUrl({ locale, fullyQualified: false })}`;
+    const baseTo = `${createUrl({ locale, fullyQualified: false })}`;
     const to = `${baseTo}${search}${hash}`;
     return {
       to,
@@ -63,7 +63,7 @@ const ChangeLanguage = () => {
           <a
             key={item.lang}
             className="flex cursor-pointer items-center border-x-0 border-t-0 border-b border-solid border-white/30 py-4 pl-6 hover:bg-[#333333]"
-            href={item.to.replace('pathname://', '')}
+            href={item.to}
           >
             {item.extra.label}
           </a>

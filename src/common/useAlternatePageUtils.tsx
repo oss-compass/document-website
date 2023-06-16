@@ -49,9 +49,11 @@ export function useAlternatePageUtils(): {
     locale: string;
     fullyQualified: boolean;
   }) {
-    return `${fullyQualified ? url : ''}${getLocalizedBaseUrl(
+    const result = `${fullyQualified ? url : ''}${getLocalizedBaseUrl(
       locale
     )}${pathnameSuffix}`;
+
+    return result.replace('//', '/');
   }
 
   return { createUrl };

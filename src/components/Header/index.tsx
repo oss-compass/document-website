@@ -35,13 +35,17 @@ const Header: React.FC<{
             </a>
 
             <Link
-              href="/dimensions-define"
+              href="/docs/dimensions-define"
               className={'mx-6 px-2.5 font-medium text-white'}
             >
               <Translate id={'header.metrics_models'} />
             </Link>
 
             <CommunityDropdown />
+
+            <Link href="/blog" className={'mx-6 px-2.5 font-medium text-white'}>
+              <Translate id={'header.blog'} />
+            </Link>
 
             <a href="/lab" className={'mx-6 px-2.5 font-medium text-white'}>
               Lab
