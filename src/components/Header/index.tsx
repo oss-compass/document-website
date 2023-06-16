@@ -50,6 +50,9 @@ const Header: React.FC<{
             <a href="/about" className={'mx-6 px-2.5 font-medium text-white'}>
               <Translate id={'header.about'} />
             </a>
+            <Link href="/blog" className={'mx-6 px-2.5 font-medium text-white'}>
+              <Translate id={'header.blog'} />
+            </Link>
           </div>
 
           <div className="flex h-full items-center">
