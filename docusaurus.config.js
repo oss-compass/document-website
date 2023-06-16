@@ -58,6 +58,7 @@ const config = {
           path: 'blog',
           routeBasePath: 'blog',
           showReadingTime: false,
+          blogSidebarCount: 'ALL'
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -87,7 +88,7 @@ const config = {
       navbar: {
         hideOnScroll: true,
         items: [
-            {to: 'blog', label: 'Blog', position: 'left'}
+          { to: 'blog', label: 'Blog', position: 'left' }
         ],
       },
       footer: {
