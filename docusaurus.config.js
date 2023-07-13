@@ -58,7 +58,7 @@ const config = {
           path: 'blog',
           routeBasePath: 'blog',
           showReadingTime: false,
-          blogSidebarCount: 'ALL'
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -87,9 +87,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: true,
-        items: [
-          { to: 'blog', label: 'Blog', position: 'left' }
-        ],
+        items: [{ to: 'blog', label: 'Blog', position: 'left' }],
       },
       footer: {
         style: 'light',
@@ -97,23 +95,22 @@ const config = {
           {
             title: 'Tutorial',
             items: [
-              { label: 'Quick start', to: '/quick-start' },
-              { label: 'Dimensions Define', to: '/dimensions-define' },
+              { label: 'Quick start', to: '/docs/quick-start' },
+              { label: 'Dimensions Define', to: '/docs/dimensions-define' },
             ],
           },
           {
             title: 'Legal',
             items: [
-              { label: 'Terms', href: '/terms-of-use' },
-              { label: 'Privacy', href: '/privacy-policy' },
-              { label: 'Built With', href: '/' },
+              { label: 'Terms', href: '/docs/terms-of-use' },
+              { label: 'Privacy', href: '/docs/privacy-policy' },
             ],
           },
           {
             title: 'Community',
             items: [
-              { label: 'Slack', href: '/community/slack' },
-              { label: 'WeChat', href: '/community/wechat' },
+              { label: 'Slack', href: '/docs/community/slack' },
+              { label: 'WeChat', href: '/docs/community/wechat' },
             ],
           },
           {
