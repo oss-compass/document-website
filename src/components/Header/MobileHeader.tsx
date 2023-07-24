@@ -64,11 +64,6 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
       icon: null,
     },
     {
-      title: translate({ id: 'header.blog' }),
-      href: '/blog',
-      icon: null,
-    },
-    {
       title: translate({ id: 'header.about' }),
       href: '/about',
       icon: null,

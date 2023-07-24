@@ -23,6 +23,12 @@
   "header.signin": {
     "message": "登录"
   },
+  "community.code_base": {
+    "message": "代码仓库"
+  },
+  "community.discussion": {
+    "message": "讨论"
+  },
   "header.subscribe": {
     "message": "我的订阅"
   },

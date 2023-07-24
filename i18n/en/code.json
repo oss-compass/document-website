@@ -32,6 +32,9 @@
   "header.signout": {
     "message": "Sign Out"
   },
+  "community.discussion": {
+    "message": "Discussion"
+  },
   "community.slack": {
     "message": "Slack"
   },
@@ -43,6 +46,9 @@
   },
   "community.join_wechat": {
     "message": "Scan our group chat QR code to join"
+  },
+  "community.code_base": {
+    "message": "Repository"
   },
   "community.github": {
     "message": "GitHub"

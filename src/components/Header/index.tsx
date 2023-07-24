@@ -25,33 +25,44 @@ const Header: React.FC<{
             'flex items-center justify-between'
           )}
         >
-          <div className="flex h-full items-center">
-            <a href="/" className="mr-6">
+          <div className="flex h-full flex-shrink-0 items-center">
+            <a href="/" className="mr-6 2xl:mr-2">
               <Logo color="white" />
             </a>
 
-            <a href="/explore" className={'mx-6 px-2.5 font-medium text-white'}>
+            <a
+              href="/explore"
+              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
+            >
               <Translate id={'header.explore'} />
             </a>
 
             <Link
               href="/docs/dimensions-define"
-              className={'mx-6 px-2.5 font-medium text-white'}
+              className={
+                'mx-6 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
+              }
             >
               <Translate id={'header.metrics_models'} />
             </Link>
 
             <CommunityDropdown />
 
-            <Link href="/blog" className={'mx-6 px-2.5 font-medium text-white'}>
-              <Translate id={'header.blog'} />
-            </Link>
+            {/*<Link href="/blog" className={'mx-6 px-2.5 font-medium text-white'}>*/}
+            {/*  <Translate id={'header.blog'} />*/}
+            {/*</Link>*/}
 
-            <a href="/lab" className={'mx-6 px-2.5 font-medium text-white'}>
+            <a
+              href="/lab"
+              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
+            >
               Lab
             </a>
 
-            <a href="/about" className={'mx-6 px-2.5 font-medium text-white'}>
+            <a
+              href="/about"
+              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
+            >
               <Translate id={'header.about'} />
             </a>
           </div>
