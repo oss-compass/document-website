@@ -56,7 +56,7 @@ const Header: React.FC<{
               href="/lab"
               className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
             >
-              Lab
+              <Translate id={'header.lab'} />
             </a>
 
             <a

@@ -14,6 +14,9 @@
   "header.about": {
     "message": "About"
   },
+  "header.lab": {
+    "message": "Lab"
+  },
   "header.blog": {
     "message": "Blog"
   },

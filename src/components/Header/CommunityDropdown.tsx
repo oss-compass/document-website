@@ -125,16 +125,17 @@ const RepoLinks = () => {
 
 const Blog = () => {
   return (
-    <a href="/blog">
-      <a className={classnames(categoryClass, 'hover:bg-[#333333]')}>
-        <div className="mr-4 w-8">
-          <BlogSvg />
-        </div>
-        <div>
-          <Translate id="header.blog" />
-        </div>
-      </a>
-    </a>
+    <Link
+      href="/blog"
+      className={classnames(categoryClass, 'hover:bg-[#333333]')}
+    >
+      <div className="mr-4 w-8">
+        <BlogSvg />
+      </div>
+      <div>
+        <Translate id="header.blog" />
+      </div>
+    </Link>
   );
 };
 
