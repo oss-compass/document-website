@@ -20,6 +20,9 @@
   "header.blog": {
     "message": "Blog"
   },
+  "header.news": {
+    "message": "News"
+  },
   "header.submit_your_project": {
     "message": "Submit your project"
   },

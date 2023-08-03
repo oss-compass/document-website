@@ -20,6 +20,9 @@
   "header.blog": {
     "message": "博客"
   },
+  "header.news": {
+    "message": "动态"
+  },
   "header.submit_your_project": {
     "message": "提交项目"
   },
