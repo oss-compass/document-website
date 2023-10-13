@@ -1,5 +1,5 @@
 :where(.tailwind) {
-    @import "./preflight.scss";
+  @import './preflight.scss';
 }
 
 @tailwind components;
@@ -13,66 +13,79 @@
 
 /* You can override the default Infima variables here. */
 :root {
-    --ifm-color-primary: #3a5bef;
-    --ifm-color-primary-dark: #1f44ed;
-    --ifm-color-primary-darker: #133ae9;
-    --ifm-color-primary-darkest: #1030c0;
-    --ifm-color-primary-light: #5572f1;
-    --ifm-color-primary-lighter: #637df2;
-    --ifm-color-primary-lightest: #8ca0f6;
-    --ifm-code-font-size: 95%;
-    --ifm-navbar-height: 80px;
-    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #3a5bef;
+  --ifm-color-primary-dark: #1f44ed;
+  --ifm-color-primary-darker: #133ae9;
+  --ifm-color-primary-darkest: #1030c0;
+  --ifm-color-primary-light: #5572f1;
+  --ifm-color-primary-lighter: #637df2;
+  --ifm-color-primary-lightest: #8ca0f6;
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-height: 80px;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-    --ifm-color-primary: #3a5bef;
-    --ifm-color-primary-dark: #1f44ed;
-    --ifm-color-primary-darker: #133ae9;
-    --ifm-color-primary-darkest: #1030c0;
-    --ifm-color-primary-light: #5572f1;
-    --ifm-color-primary-lighter: #637df2;
-    --ifm-color-primary-lightest: #8ca0f6;
-    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #3a5bef;
+  --ifm-color-primary-dark: #1f44ed;
+  --ifm-color-primary-darker: #133ae9;
+  --ifm-color-primary-darkest: #1030c0;
+  --ifm-color-primary-light: #5572f1;
+  --ifm-color-primary-lighter: #637df2;
+  --ifm-color-primary-lightest: #8ca0f6;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 .custom-desktop-nav {
-    --ifm-link-color: #fff;
-    --ifm-link-hover-color: #fff;
-    --ifm-link-hover-decoration: none;
-    --ifm-navbar-padding-vertical: 0;
-    --ifm-navbar-padding-horizontal: 0;
-    --ifm-navbar-height: 80px;
+  --ifm-link-color: #fff;
+  --ifm-link-hover-color: #fff;
+  --ifm-link-hover-decoration: none;
+  --ifm-navbar-padding-vertical: 0;
+  --ifm-navbar-padding-horizontal: 0;
+  --ifm-navbar-height: 80px;
 
-    --ifm-list-margin: 0;
-    --ifm-list-left-padding: 0;
-    --ifm-paragraph-margin-bottom: 0;
-    --ifm-heading-margin-top: 0;
-    --ifm-heading-margin-bottom: 5px;
+  --ifm-list-margin: 0;
+  --ifm-list-left-padding: 0;
+  --ifm-paragraph-margin-bottom: 0;
+  --ifm-heading-margin-top: 0;
+  --ifm-heading-margin-bottom: 5px;
 }
 
 .custom-mobile-nav {
-    --ifm-link-color: #000;
-    --ifm-link-hover-color: #000;
-    --ifm-link-hover-decoration: none;
-    --ifm-navbar-padding-vertical: 0;
-    --ifm-navbar-padding-horizontal: 0;
-    --ifm-navbar-height: 60px;
+  --ifm-link-color: #000;
+  --ifm-link-hover-color: #000;
+  --ifm-link-hover-decoration: none;
+  --ifm-navbar-padding-vertical: 0;
+  --ifm-navbar-padding-horizontal: 0;
+  --ifm-navbar-height: 60px;
 
-    --ifm-list-margin: 0;
-    --ifm-list-left-padding: 0;
-    --ifm-paragraph-margin-bottom: 0;
-    --ifm-heading-margin-top: 0;
-    --ifm-heading-margin-bottom: 5px;
+  --ifm-list-margin: 0;
+  --ifm-list-left-padding: 0;
+  --ifm-paragraph-margin-bottom: 0;
+  --ifm-heading-margin-top: 0;
+  --ifm-heading-margin-bottom: 5px;
 }
 
 .theme-doc-footer-edit-meta-row svg {
-    display: inline-block;
+  display: inline-block;
 }
 
 .theme-doc-sidebar-menu {
   .menu__link {
     font-size: 14px;
+  }
+}
+.blog-list-page {
+  h2 {
+    font-size: 2rem !important;
+  }
+  .markdown > p > img {
+    max-height: 350px;
+  }
+}
+.blog-post-page {
+  h1 {
+    font-size: 2rem !important;
   }
 }
