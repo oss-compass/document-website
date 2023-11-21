@@ -5,6 +5,12 @@
   "header.explore": {
     "message": "Explore"
   },
+  "header.projects": {
+    "message": "Projects"
+  },
+  "header.docs": {
+    "message": "Docs"
+  },
   "header.metrics_models": {
     "message": "Metrics Models"
   },

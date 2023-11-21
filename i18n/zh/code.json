@@ -5,6 +5,12 @@
   "header.explore": {
     "message": "探索"
   },
+  "header.projects": {
+    "message": "项目"
+  },
+  "header.docs": {
+    "message": "文档"
+  },
   "header.metrics_models": {
     "message": "评估模型"
   },

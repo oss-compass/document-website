@@ -34,7 +34,7 @@ const Header: React.FC<{
               href="/explore"
               className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
             >
-              <Translate id={'header.explore'} />
+              <Translate id={'header.projects'} />
             </a>
 
             <Link
@@ -43,7 +43,7 @@ const Header: React.FC<{
                 'mx-6 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
               }
             >
-              <Translate id={'header.metrics_models'} />
+              <Translate id={'header.Docs'} />
             </Link>
 
             <CommunityDropdown />
