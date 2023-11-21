@@ -48,15 +48,21 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
       legacyBehavior: true,
     },
     {
+      title: translate({ id: 'header.docs' }),
+      href: '/docs/dimensions-define',
+      icon: null,
+    },
+    {
       title: translate({ id: 'header.projects' }),
       href: '/explore',
       icon: null,
       legacyBehavior: true,
     },
     {
-      title: translate({ id: 'header.Docs' }),
-      href: '/docs/dimensions-define',
+      title: translate({ id: 'header.lab' }),
+      href: '/lab',
       icon: null,
+      legacyBehavior: true,
     },
     {
       title: translate({ id: 'header.community' }),
@@ -68,12 +74,7 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
       href: '/blog',
       icon: null,
     },
-    {
-      title: translate({ id: 'header.lab' }),
-      href: '/lab',
-      icon: null,
-      legacyBehavior: true,
-    },
+
     {
       title: translate({ id: 'header.about' }),
       href: '/about',
