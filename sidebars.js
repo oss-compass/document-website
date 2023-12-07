@@ -46,9 +46,6 @@ const sidebars = {
             { type: 'doc', label: 'Overview', id: 'docs/metrics-models/productivity/README' },
             { type: 'doc', id: 'docs/metrics-models/productivity/collaboration-development-index' },
             { type: 'doc', id: 'docs/metrics-models/productivity/community-service-and-support' },
-            { type: 'doc', id: 'docs/metrics-models/productivity/code/code-compliance-guarantee' },
-            { type: 'doc', id: 'docs/metrics-models/productivity/code/code-security-guarantee' },
-            { type: 'doc', id: 'docs/metrics-models/productivity/content' },
           ],
         },
 
@@ -66,11 +63,6 @@ const sidebars = {
           items: [
             { type: 'doc', label: 'Overview', id: 'docs/metrics-models/robustness/README' },
             { type: 'doc', id: 'docs/metrics-models/robustness/activity' },
-            { type: 'doc', id: 'docs/metrics-models/robustness/developer/developer-convertion' },
-            { type: 'doc', id: 'docs/metrics-models/robustness/developer/developer-retention' },
-            { type: 'doc', id: 'docs/metrics-models/robustness/organization/innner-connectedness' },
-            { type: 'doc', id: 'docs/metrics-models/robustness/organization/organization-collaboration-relationships' },
-            { type: 'doc', id: 'docs/metrics-models/robustness/organization/outbound-connectedness' },
           ],
         },
 
@@ -87,9 +79,7 @@ const sidebars = {
           },
           items: [
             { type: 'doc', label: 'Overview', id: 'docs/metrics-models/niche-creation/README' },
-            { type: 'doc', id: 'docs/metrics-models/niche-creation/ecological-diversity/developer-attraction' },
             { type: 'doc', id: 'docs/metrics-models/niche-creation/ecological-diversity/organization-activity' },
-            { type: 'doc', id: 'docs/metrics-models/niche-creation/technological-advancement' },
           ],
         },
       ],

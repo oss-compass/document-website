@@ -30,32 +30,34 @@ const Header: React.FC<{
               <Logo color="white" />
             </a>
 
+            <a
+              href="/explore"
+              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
+            >
+              <Translate id={'header.explore'} />
+            </a>
+
             <Link
               href="/docs/dimensions-define"
               className={
                 'mx-6 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
               }
             >
-              <Translate id={'header.docs'} />
+              <Translate id={'header.metrics_models'} />
             </Link>
 
-            <a
-              href="/explore"
-              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
-            >
-              <Translate id={'header.projects'} />
-            </a>
+            <CommunityDropdown />
+
+            <Link href="/blog" className={'mx-6 px-2.5 font-medium text-white'}>
+              <Translate id={'header.news'} />
+            </Link>
+
             <a
               href="/lab"
               className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
             >
               <Translate id={'header.lab'} />
             </a>
-            <CommunityDropdown />
-
-            <Link href="/blog" className={'mx-6 px-2.5 font-medium text-white'}>
-              <Translate id={'header.news'} />
-            </Link>
 
             <a
               href="/about"
