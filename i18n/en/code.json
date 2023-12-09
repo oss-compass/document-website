@@ -11,6 +11,9 @@
   "header.docs": {
     "message": "Docs"
   },
+  "header.academe": {
+    "message": "Collaboration"
+  },
   "header.metrics_models": {
     "message": "Metrics Models"
   },

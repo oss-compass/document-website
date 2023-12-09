@@ -8,32 +8,40 @@
     "description": "The label for category Ecosystem Evaluation System in sidebar webSidebar"
   },
   "sidebar.webSidebar.category.Ecosystem Evaluation System.link.generated-index.description": {
-    "message": "Ecosystem is used to describe the health status of open source community standing from ecology context. We create three top level dimensions: Productivity, Robustness and Niche Creation.",
+    "message": "Ecosystem is used to describe the health status of open source community standing from ecology context. We create a three-dimensional space for the evaluation system, including the open source ecosystem, 'collaboration, people, software' and evaluation models.",
     "description": "The generated-index page description for category Ecosystem Evaluation System in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Productivity": {
-    "message": "Productivity",
+  "sidebar.webSidebar.category.Collaboration-Productivity": {
+    "message": "Collaboration-Productivity",
     "description": "The label for category Productivity in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Productivity.link.generated-index.description": {
+  "sidebar.webSidebar.category.Collaboration-Productivity.link.generated-index.description": {
     "message": "The efficiency with which an ecosystem or project converts inputs into output.",
     "description": "The generated-index page description for category Productivity in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Robustness": {
-    "message": "Robustness",
+  "sidebar.webSidebar.category.Collaboration-Robustness": {
+    "message": "Collaboration-Robustness",
     "description": "The label for category Robustness in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Robustness.link.generated-index.description": {
+  "sidebar.webSidebar.category.Collaboration-Robustness.link.generated-index.description": {
     "message": "The capability of an ecosystem or project to face and survive disruptions.",
     "description": "The generated-index page description for category Robustness in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Niche Creation": {
-    "message": "Niche Creation",
+  "sidebar.webSidebar.category.Collaboration-Niche Creation": {
+    "message": "Collaboration-Niche Creation",
     "description": "The label for category Niche Creation in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Niche Creation.link.generated-index.description": {
+  "sidebar.webSidebar.category.Collaboration-Niche Creation.link.generated-index.description": {
     "message": "The capacity to create and recognize meaningful diversity and thereby new capabilities.",
     "description": "The generated-index page description for category Niche Creation in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.People-Productivity": {
+    "message": "People-Productivity",
+    "description": "The label for category Productivity in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.People-Productivity.link.generated-index.description": {
+    "message": "The efficiency with which an ecosystem or project converts inputs into output.",
+    "description": "The generated-index page description for category Productivity in sidebar webSidebar"
   },
   "sidebar.webSidebar.category.Community": {
     "message": "Community",

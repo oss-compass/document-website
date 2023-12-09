@@ -11,6 +11,9 @@
   "header.docs": {
     "message": "文档"
   },
+  "header.academe": {
+    "message": "协作"
+  },
   "header.metrics_models": {
     "message": "评估模型"
   },

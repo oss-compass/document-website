@@ -25,16 +25,18 @@ const sidebars = {
       label: 'Ecosystem Evaluation System',
       link: {
         type: 'generated-index',
-        description: 'Ecosystem is used to describe the health status of open source community standing from ecology context. We create three top level dimensions: Productivity, Robustness and Niche Creation.',
+        description: 'Ecosystem is used to describe the health status of open source community standing from ecology context. We create a three-dimensional space for the evaluation system, including the open source ecosystem, "collaboration, people, software" and evaluation models.',
         slug: '/dimensions-define',
         keywords: ['Metrics Models Dimensions', 'Productivity', 'Robustness', 'Niche-Creation',],
         image: '/img/docusaurus.png',
       },
       items: [
+        { type: 'doc', label: 'Overview', id: 'docs/metrics-models/README' },
+
         {
           type: 'category',
           collapsed: false,
-          label: 'Productivity',
+          label: 'Collaboration-Productivity',
           link: {
             type: 'generated-index',
             description: 'The efficiency with which an ecosystem or project converts inputs into output.',
@@ -43,16 +45,16 @@ const sidebars = {
             image: '/img/docusaurus.png',
           },
           items: [
-            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/productivity/README' },
-            { type: 'doc', id: 'docs/metrics-models/productivity/collaboration-development-index' },
-            { type: 'doc', id: 'docs/metrics-models/productivity/community-service-and-support' },
+            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/collaboration/productivity/README' },
+            { type: 'doc', id: 'docs/metrics-models/collaboration/productivity/collaboration-development-index' },
+            { type: 'doc', id: 'docs/metrics-models/collaboration/productivity/community-service-and-support' },
           ],
         },
 
         {
           type: 'category',
           collapsed: false,
-          label: 'Robustness',
+          label: 'Collaboration-Robustness',
           link: {
             type: 'generated-index',
             description: 'The capability of an ecosystem or project to face and survive disruptions.',
@@ -61,15 +63,15 @@ const sidebars = {
             image: '/img/docusaurus.png',
           },
           items: [
-            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/robustness/README' },
-            { type: 'doc', id: 'docs/metrics-models/robustness/activity' },
+            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/collaboration/robustness/README' },
+            { type: 'doc', id: 'docs/metrics-models/collaboration/robustness/activity' },
           ],
         },
 
         {
           type: 'category',
           collapsed: false,
-          label: 'Niche Creation',
+          label: 'Collaboration-Niche Creation',
           link: {
             type: 'generated-index',
             description: 'The capacity to create and recognize meaningful diversity and thereby new capabilities.',
@@ -78,8 +80,27 @@ const sidebars = {
             image: '/img/docusaurus.png',
           },
           items: [
-            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/niche-creation/README' },
-            { type: 'doc', id: 'docs/metrics-models/niche-creation/ecological-diversity/organization-activity' },
+            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/collaboration/niche-creation/README' },
+            { type: 'doc', id: 'docs/metrics-models/collaboration/niche-creation/organization-activity' },
+          ],
+        },
+
+        {
+          type: 'category',
+          collapsed: false,
+          label: 'People-Productivity',
+          link: {
+            type: 'generated-index',
+            description: 'The efficiency with which an ecosystem or project converts inputs into output.',
+            // slug: '/metrics-models/productivity',
+            keywords: [],
+            image: '/img/docusaurus.png',
+          },
+          items: [
+            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/people/productivity/README' },
+            { type: 'doc', id: 'docs/metrics-models/people/productivity/contributor-domain-persona' },
+            { type: 'doc', id: 'docs/metrics-models/people/productivity/contributor-role-persona' },
+            { type: 'doc', id: 'docs/metrics-models/people/productivity/contributor-milestone-persona' },
           ],
         },
       ],

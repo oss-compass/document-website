@@ -8,32 +8,40 @@
     "description": "The label for category Ecosystem Evaluation System in sidebar webSidebar"
   },
   "sidebar.webSidebar.category.Ecosystem Evaluation System.link.generated-index.description": {
-    "message": "开源生态是用来描述站在生态学背景下的开源社区的健康状态。我们创建了三个最高级别的维度来描述开源生态评估：生产力、稳健性和创新力。",
+    "message": "生态系统是用来描述站在生态学背景下的开源社区的健康状态。我们构建了一个评估体系的三维空间，包括开源生态、“协作、人、软件”和评估模型",
     "description": "The generated-index page description for category Ecosystem Evaluation System in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Productivity": {
-    "message": "生产力",
+  "sidebar.webSidebar.category.Collaboration-Productivity": {
+    "message": "协作-生产力",
     "description": "The label for category Productivity in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Productivity.link.generated-index.description": {
+  "sidebar.webSidebar.category.Collaboration-Productivity.link.generated-index.description": {
     "message": "一个开源生态将投入转化为产出的能力。",
     "description": "The generated-index page description for category Productivity in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Robustness": {
-    "message": "稳健性",
+  "sidebar.webSidebar.category.Collaboration-Robustness": {
+    "message": "协作-稳健性",
     "description": "The label for category Robustness in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Robustness.link.generated-index.description": {
+  "sidebar.webSidebar.category.Collaboration-Robustness.link.generated-index.description": {
     "message": "生态系统面对内部或者外部冲突自我恢复的能力。",
     "description": "The generated-index page description for category Robustness in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Niche Creation": {
-    "message": "创新力",
+  "sidebar.webSidebar.category.Collaboration-Niche Creation": {
+    "message": "协作-创新力",
     "description": "The label for category Niche Creation in sidebar webSidebar"
   },
-  "sidebar.webSidebar.category.Niche Creation.link.generated-index.description": {
+  "sidebar.webSidebar.category.Collaboration-Niche Creation.link.generated-index.description": {
     "message": "社区生态具有持续创造多样性创新的能力，并成为社区生态向前演进的动力。",
     "description": "The generated-index page description for category Niche Creation in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.People-Productivity": {
+    "message": "贡献者-生产力",
+    "description": "The label for category Productivity in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.People-Productivity.link.generated-index.description": {
+    "message": "一个开源生态将投入转化为产出的能力。",
+    "description": "The generated-index page description for category Productivity in sidebar webSidebar"
   },
   "sidebar.webSidebar.category.Community": {
     "message": "社区交流",
