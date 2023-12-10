@@ -60,7 +60,7 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
     },
     {
       title: translate({ id: 'header.academe' }),
-      href: '/academe',
+      href: '/collaboration',
       icon: null,
       legacyBehavior: true,
     },

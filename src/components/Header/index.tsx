@@ -47,7 +47,7 @@ const Header: React.FC<{
             </a>
 
             <Link
-              href="/academe"
+              href="/collaboration"
               className={
                 'mx-6 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
               }
