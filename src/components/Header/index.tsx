@@ -46,14 +46,14 @@ const Header: React.FC<{
               <Translate id={'header.projects'} />
             </a>
 
-            <Link
+            <a
               href="/collaboration"
               className={
                 'mx-6 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
               }
             >
               <Translate id={'header.academe'} />
-            </Link>
+            </a>
 
             <a
               href="/lab"
