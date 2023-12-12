@@ -3,6 +3,8 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 const vercel = process.env.VERCEL_ENV === 'preview';
 
@@ -38,6 +40,8 @@ const config = {
           path: 'modules',
           routeBasePath: 'docs',
           exclude: ['**/blog/**'],
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -59,6 +63,8 @@ const config = {
           routeBasePath: 'blog',
           showReadingTime: false,
           blogSidebarCount: 'ALL',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -75,6 +81,15 @@ const config = {
         },
       }),
     ],
+  ],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
   ],
   plugins: [
     'docusaurus-plugin-sass',
