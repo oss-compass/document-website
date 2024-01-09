@@ -62,7 +62,10 @@ const Header: React.FC<{
               <Translate id={'header.lab'} />
             </a>
 
-            <Link href="/blog" className={'mx-6 px-2.5 font-medium text-white'}>
+            <Link
+              href="/blog"
+              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
+            >
               <Translate id={'header.news'} />
             </Link>
 
