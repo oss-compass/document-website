@@ -26,7 +26,6 @@ export default function BlogSidebarDesktop ({ sidebar }) {
         </div>
         <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
           {sidebar.items.map(item => {
-            console.log(item.permalink)
             const postYear = item.permalink.split('/')[2] + '-' + item.permalink.split('/')[3] + '-' + item.permalink.split('/')[4];
             const yearHeader = (
               <div className={styles.sidebarItemTitle}>{postYear}</div>
