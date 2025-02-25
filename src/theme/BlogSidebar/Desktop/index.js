@@ -11,7 +11,7 @@ import Link from '@docusaurus/Link';
 import { translate } from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
-export default function BlogSidebarDesktop ({ sidebar }) {
+export default function BlogSidebarDesktop({ sidebar }) {
   return (
     <aside className="col col--3">
       <nav
@@ -26,7 +26,7 @@ export default function BlogSidebarDesktop ({ sidebar }) {
         </div>
         <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
           {sidebar.items.map(item => {
-            const postYear = item.permalink.split('/')[2] + '-' + item.permalink.split('/')[3] + '-' + item.permalink.split('/')[4];
+            const postYear = item.permalink.split('/')[2] === 'blog' ? item.permalink.split('/')[3] + '-' + item.permalink.split('/')[4] + '-' + item.permalink.split('/')[5] : item.permalink.split('/')[2] + '-' + item.permalink.split('/')[3] + '-' + item.permalink.split('/')[4];
             const yearHeader = (
               <div className={styles.sidebarItemTitle}>{postYear}</div>
             );
