@@ -8,9 +8,7 @@ import MobileHeader from './MobileHeader';
 import CommunityDropdown from './CommunityDropdown';
 import ChangeLanguage from './ChangeLanguage';
 import User from './User';
-
-import LogoGitee from '../svgs/gitee-red.svg';
-import LogoGithub from '../svgs/github.svg';
+import MoreDropdown from './MoreDropdown';
 
 const Header: React.FC<{
   mobileMenu?: React.ReactNode;
@@ -64,7 +62,9 @@ const Header: React.FC<{
 
             <Link
               href="/blog"
-              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
+              className={
+                'mx-6 px-2.5 font-medium text-white 3xl:hidden 2xl:mx-2'
+              }
             >
               <Translate id={'header.news'} />
             </Link>
@@ -73,10 +73,13 @@ const Header: React.FC<{
 
             <a
               href="/about"
-              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
+              className={
+                'mx-6 px-2.5 font-medium text-white 3xl:hidden 2xl:mx-2'
+              }
             >
               <Translate id={'header.about'} />
             </a>
+            <MoreDropdown />
           </div>
 
           <div className="flex h-full items-center">

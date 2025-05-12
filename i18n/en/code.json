@@ -32,6 +32,9 @@
   "header.news": {
     "message": "News"
   },
+  "header.more": {
+    "message": "More"
+  },
   "header.submit_your_project": {
     "message": "Submit your project"
   },

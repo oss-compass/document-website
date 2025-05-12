@@ -32,6 +32,9 @@
   "header.news": {
     "message": "动态"
   },
+  "header.more": {
+    "message": "更多"
+  },
   "header.submit_your_project": {
     "message": "提交项目"
   },
