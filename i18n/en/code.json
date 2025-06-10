@@ -35,6 +35,9 @@
   "header.more": {
     "message": "More"
   },
+  "header.all_services": {
+    "message": "All Services"
+  },
   "header.submit_your_project": {
     "message": "Submit your project"
   },
@@ -356,5 +359,47 @@
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "Toggle navigation bar",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "header.opensource_assessment_service": {
+    "message": "Open Source Ecosystem Evaluation System"
+  },
+  "header.opensource_assessment_description": {
+    "message": "Build a three-dimensional evaluation system to evaluate the health status of open source communities."
+  },
+  "header.developer_influence_service": {
+    "message": "Developer Portrait Service"
+  },
+  "header.developer_influence_description": {
+    "message": "Understand developers' productivity, activity, and collaboration from their contribution behaviors."
+  },
+  "header.opensource_insight_service": {
+    "message": "Open Source Ecosystem Insight Service"
+  },
+  "header.opensource_insight_description": {
+    "message": "Gain insights into global open source imports and exports, communities, technology fields, developers, programming languages, and licenses by analyzing global open source projects."
+  },
+  "header.opensource_selection_service": {
+    "message": "Open Source Software Selection Evaluation Service"
+  },
+  "header.opensource_selection_description": {
+    "message": "The open source software selection evaluation service provides three main functions: assessing known software, recommending candidate software, and finding similar functional alternatives to help users efficiently choose suitable software."
+  },
+  "header.opensource_research_service": {
+    "message": "OSS Research Data Hub"
+  },
+  "header.opensource_research_description": {
+    "message": "The open source research data hub service aims to provide high-quality datasets and models to assist researchers and developers in deep exploration and innovation in the open source field."
+  },
+  "header.product_home": {
+    "message": "Product Home"
+  },
+  "header.mirror_site_of_iscas": {
+    "message": "Institute of Software, CAS"
+  },
+  "header.mirror_site_of_pku": {
+    "message": "Open Source Software Data Analytics Lab@PKU-SEI"
+  },
+  "header.home_input_experience": {
+    "message": "Home Input Experience Product"
   }
 }

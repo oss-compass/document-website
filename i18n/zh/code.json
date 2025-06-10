@@ -35,6 +35,9 @@
   "header.more": {
     "message": "更多"
   },
+  "header.all_services": {
+    "message": "全部服务"
+  },
   "header.submit_your_project": {
     "message": "提交项目"
   },
@@ -356,5 +359,47 @@
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "切换导航栏",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "header.opensource_assessment_service": {
+    "message": "开源生态评估服务"
+  },
+  "header.opensource_assessment_description": {
+    "message": "构建三维评估体系，评估开源社区的健康状态。"
+  },
+  "header.developer_influence_service": {
+    "message": "开发者画像服务"
+  },
+  "header.developer_influence_description": {
+    "message": "从开发者的贡献行为中了解开发人员的生产力、活跃度和协作等。"
+  },
+  "header.opensource_insight_service": {
+    "message": "开源生态态势洞察服务"
+  },
+  "header.opensource_insight_description": {
+    "message": "通过分析全球开源项目，洞悉全球开源进出口、社区、技术领域、开发者、编程语言、许可证的发展态势。"
+  },
+  "header.opensource_selection_service": {
+    "message": "开源软件选型评估服务"
+  },
+  "header.opensource_selection_description": {
+    "message": "提供三大功能：评估已知软件、推荐候选软件和查找相似功能替代软件，助力用户高效选择合适的软件。"
+  },
+  "header.opensource_research_service": {
+    "message": "开源研究数据中枢服务"
+  },
+  "header.opensource_research_description": {
+    "message": "致力于提供高质量的数据集和模型，助力研究者和开发者在开源领域进行深入探索与创新。"
+  },
+  "header.product_home": {
+    "message": "产品首页"
+  },
+  "header.mirror_site_of_iscas": {
+    "message": "中国科学院软件研究所"
+  },
+  "header.mirror_site_of_pku": {
+    "message": "北京大学计算机学院开源分析实验室"
+  },
+  "header.home_input_experience": {
+    "message": "首页输入框体验产品"
   }
 }
