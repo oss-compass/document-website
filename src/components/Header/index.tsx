@@ -32,7 +32,7 @@ const Header: React.FC<{
             <Link
               href="/docs/dimensions-define"
               className={
-                'mx-6 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
+                'mx-4 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
               }
             >
               <Translate id={'header.docs'} />
@@ -42,9 +42,7 @@ const Header: React.FC<{
             <MoreDropdown />
             <a
               href="/about"
-              className={
-                'mx-6 px-2.5 font-medium text-white 3xl:hidden 2xl:mx-2'
-              }
+              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
             >
               <Translate id={'header.about'} />
             </a>

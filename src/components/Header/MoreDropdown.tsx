@@ -26,7 +26,7 @@ const MoreDropdown = () => {
             </a>
           </div>
           <div className="mx-4 px-2.5 font-medium text-white 2xl:mx-2 xl:mx-1">
-            <Link href="/oh">OpenHarmony</Link>
+            <a href="/oh">OpenHarmony</a>
           </div>
         </div>
       </div>
