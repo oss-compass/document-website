@@ -1,9 +1,12 @@
 import React from 'react';
-import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
 import { AiFillCaretDown } from 'react-icons/ai';
+import { getAuthRole } from '../../common/cookie';
 
 const MoreDropdown = () => {
+  const authRole = getAuthRole();
+  const showOpenHarmony = authRole !== null && authRole >= 1;
+
   return (
     <div className="group relative flex h-full items-center transition">
       <div className="flex cursor-pointer items-center justify-center py-3 px-7 group-hover:bg-[#333333] 2xl:px-4 xl:mx-1">
@@ -25,9 +28,11 @@ const MoreDropdown = () => {
               <Translate id={'header.lab'} />
             </a>
           </div>
-          <div className="mx-4 px-2.5 font-medium text-white 2xl:mx-2 xl:mx-1">
-            <a href="/oh">OpenHarmony</a>
-          </div>
+          {showOpenHarmony && (
+            <div className="mx-4 px-2.5 font-medium text-white 2xl:mx-2 xl:mx-1">
+              <a href="/oh">OpenHarmony</a>
+            </div>
+          )}
         </div>
       </div>
     </div>
