@@ -106,13 +106,13 @@ const MoreDropdown = () => {
                   </div>
                   <div className="flex flex-col gap-1 text-sm text-[#8ba5f9]">
                     {service.linkItems.map((linkItem) => (
-                      <Link
+                      <a
                         key={linkItem.link}
                         href={linkItem.link}
                         target={linkItem.target}
                       >
                         <div>{linkItem.linkText}</div>
-                      </Link>
+                      </a>
                     ))}
                   </div>
                 </div>
