@@ -32,7 +32,7 @@ i18n/zh/docusaurus-plugin-content-docs/current
 
 # blog
 /blog
-
+/py
 i18n/en/docusaurus-plugin-content-blog/*
 i18n/zh/docusaurus-plugin-content-blog/*
 
