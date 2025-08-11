@@ -43,6 +43,14 @@
     "message": "一个开源生态将投入转化为产出的能力。",
     "description": "The generated-index page description for category Productivity in sidebar webSidebar"
   },
+  "sidebar.webSidebar.category.Software Artifact-Robustness": {
+    "message": "软件制品-稳健性",
+    "description": "The label for category Productivity in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Software Artifact-Robustness.link.generated-index.description": {
+    "message": "生态系统面对内部或者外部冲突自我恢复的能力。",
+    "description": "The generated-index page description for category Productivity in sidebar webSidebar"
+  },
   "sidebar.webSidebar.category.Community": {
     "message": "社区交流",
     "description": "The label for category Community in sidebar webSidebar"
