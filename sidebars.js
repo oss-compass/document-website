@@ -103,6 +103,24 @@ const sidebars = {
             { type: 'doc', id: 'docs/metrics-models/people/productivity/contributor-milestone-persona' },
           ],
         },
+        {
+          type: 'category',
+          collapsed: false,
+          label: 'Software Artifact-Robustness',
+          link: {
+            type: 'generated-index',
+            description: 'The efficiency with which an ecosystem or project converts inputs into output.',
+            // slug: '/metrics-models/productivity',
+            keywords: [],
+            image: '/img/docusaurus.png',
+          },
+          items: [
+            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/software_artifact/robustness/README' },
+            { type: 'doc', id: 'docs/metrics-models/software_artifact/robustness/cii_best_badge' },
+            { type: 'doc', id: 'docs/metrics-models/software_artifact/robustness/criticality_score' },
+            { type: 'doc', id: 'docs/metrics-models/software_artifact/robustness/scorecard' },
+          ],
+        },
       ],
     },
 

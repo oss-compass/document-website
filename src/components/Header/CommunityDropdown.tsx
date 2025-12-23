@@ -151,6 +151,7 @@ const CommunityDropdown = () => {
 
       <div className="absolute top-[100%] z-dropdown hidden w-[360px] border-x-0 border-t-2 border-solid bg-black/90 text-white group-hover:block">
         <div className="mt-[2px] bg-black/95 text-white">
+          <Blog />
           <Discussion />
           <RepoLinks />
           {/*<Blog />*/}

@@ -8,9 +8,8 @@ import MobileHeader from './MobileHeader';
 import CommunityDropdown from './CommunityDropdown';
 import ChangeLanguage from './ChangeLanguage';
 import User from './User';
-
-import LogoGitee from '../svgs/gitee-red.svg';
-import LogoGithub from '../svgs/github.svg';
+import MoreDropdown from './MoreDropdown';
+import AllDropdown from './AllDropdown';
 
 const Header: React.FC<{
   mobileMenu?: React.ReactNode;
@@ -33,44 +32,14 @@ const Header: React.FC<{
             <Link
               href="/docs/dimensions-define"
               className={
-                'mx-6 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
+                'mx-4 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
               }
             >
               <Translate id={'header.docs'} />
             </Link>
-
-            <a
-              href="/explore"
-              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
-            >
-              <Translate id={'header.projects'} />
-            </a>
-
-            <a
-              href="/collaboration"
-              className={
-                'mx-6 flex-shrink-0 px-2.5 font-medium text-white 2xl:mx-2'
-              }
-            >
-              <Translate id={'header.academe'} />
-            </a>
-
-            <a
-              href="/lab"
-              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
-            >
-              <Translate id={'header.lab'} />
-            </a>
-
-            <Link
-              href="/blog"
-              className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}
-            >
-              <Translate id={'header.news'} />
-            </Link>
-
+            <AllDropdown />
             <CommunityDropdown />
-
+            <MoreDropdown />
             <a
               href="/about"
               className={'mx-6 px-2.5 font-medium text-white 2xl:mx-2'}

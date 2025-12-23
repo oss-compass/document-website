@@ -43,6 +43,14 @@
     "message": "The efficiency with which an ecosystem or project converts inputs into output.",
     "description": "The generated-index page description for category Productivity in sidebar webSidebar"
   },
+  "sidebar.webSidebar.category.Software Artifact-Robustness": {
+    "message": "Software Artifact-Robustness",
+    "description": "The label for category Productivity in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Software Artifact-Robustness.link.generated-index.description": {
+    "message": "The ability of an ecosystem to recover from internal or external conflicts.",
+    "description": "The generated-index page description for category Productivity in sidebar webSidebar"
+  },
   "sidebar.webSidebar.category.Community": {
     "message": "Community",
     "description": "The label for category Community in sidebar webSidebar"
