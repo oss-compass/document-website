@@ -31,7 +31,7 @@ const sidebars = {
         image: '/img/docusaurus.png',
       },
       items: [
-        { type: 'doc', label: 'Overview', id: 'docs/metrics-models/README' },
+        { type: 'doc', id: 'docs/metrics-models/metrics-models-overview' },
 
         {
           type: 'category',
@@ -45,7 +45,7 @@ const sidebars = {
             image: '/img/docusaurus.png',
           },
           items: [
-            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/collaboration/productivity/README' },
+            { type: 'doc', id: 'docs/metrics-models/collaboration/productivity/collaboration-productivity-overview' },
             { type: 'doc', id: 'docs/metrics-models/collaboration/productivity/collaboration-development-index' },
             { type: 'doc', id: 'docs/metrics-models/collaboration/productivity/community-service-and-support' },
           ],
@@ -63,7 +63,7 @@ const sidebars = {
             image: '/img/docusaurus.png',
           },
           items: [
-            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/collaboration/robustness/README' },
+            { type: 'doc', id: 'docs/metrics-models/collaboration/robustness/collaboration-robustness-overview' },
             { type: 'doc', id: 'docs/metrics-models/collaboration/robustness/activity' },
           ],
         },
@@ -80,7 +80,7 @@ const sidebars = {
             image: '/img/docusaurus.png',
           },
           items: [
-            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/collaboration/niche-creation/README' },
+            { type: 'doc', id: 'docs/metrics-models/collaboration/niche-creation/collaboration-niche-creation-overview' },
             { type: 'doc', id: 'docs/metrics-models/collaboration/niche-creation/organization-activity' },
           ],
         },
@@ -97,7 +97,7 @@ const sidebars = {
             image: '/img/docusaurus.png',
           },
           items: [
-            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/people/productivity/README' },
+            { type: 'doc', id: 'docs/metrics-models/people/productivity/people-productivity-overview' },
             { type: 'doc', id: 'docs/metrics-models/people/productivity/contributor-domain-persona' },
             { type: 'doc', id: 'docs/metrics-models/people/productivity/contributor-role-persona' },
             { type: 'doc', id: 'docs/metrics-models/people/productivity/contributor-milestone-persona' },
@@ -115,7 +115,7 @@ const sidebars = {
             image: '/img/docusaurus.png',
           },
           items: [
-            { type: 'doc', label: 'Overview', id: 'docs/metrics-models/software_artifact/robustness/README' },
+            { type: 'doc', id: 'docs/metrics-models/software_artifact/robustness/software-artifact-robustness-overview' },
             { type: 'doc', id: 'docs/metrics-models/software_artifact/robustness/cii_best_badge' },
             { type: 'doc', id: 'docs/metrics-models/software_artifact/robustness/criticality_score' },
             { type: 'doc', id: 'docs/metrics-models/software_artifact/robustness/scorecard' },

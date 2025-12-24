@@ -17,19 +17,19 @@
   },
   "link.item.label.Quick start": {
     "message": "快速入门",
-    "description": "The label of footer link with label=Quick start linking to /quick-start"
+    "description": "The label of footer link with label=Quick start linking to /docs/quick-start"
   },
   "link.item.label.Dimensions Define": {
     "message": "度量维度定义",
-    "description": "The label of footer link with label=Dimensions Define linking to /dimensions-define"
+    "description": "The label of footer link with label=Dimensions Define linking to /docs/dimensions-define"
   },
   "link.item.label.Terms": {
     "message": "使用条款",
-    "description": "The label of footer link with label=Terms linking to /terms-of-use"
+    "description": "The label of footer link with label=Terms linking to /docs/terms-of-use"
   },
   "link.item.label.Privacy": {
     "message": "隐私政策",
-    "description": "The label of footer link with label=Privacy linking to /privacy-policy"
+    "description": "The label of footer link with label=Privacy linking to /docs/privacy-policy"
   },
   "link.item.label.Built With": {
     "message": "Built With",
@@ -37,11 +37,11 @@
   },
   "link.item.label.Slack": {
     "message": "Slack 频道",
-    "description": "The label of footer link with label=Slack linking to /community/slack"
+    "description": "The label of footer link with label=Slack linking to /docs/community/slack"
   },
   "link.item.label.WeChat": {
     "message": "微信交流群",
-    "description": "The label of footer link with label=WeChat linking to /community/wechat"
+    "description": "The label of footer link with label=WeChat linking to /docs/community/wechat"
   },
   "link.item.label.Github": {
     "message": "GitHub",
