@@ -42,8 +42,8 @@
     "react-icons": "^4.6.0",
     "react-pdf": "^9.1.1",
     "react-use": "^17.4.0",
-    "rehype-katex": "5",
-    "remark-math": "3"
+    "rehype-katex": "7",
+    "remark-math": "6"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.9.2",

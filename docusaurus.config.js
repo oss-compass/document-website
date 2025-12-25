@@ -1,10 +1,12 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const { themes } = require('prism-react-renderer');
-const math = require('remark-math');
-const katex = require('rehype-katex');
+import { themes } from 'prism-react-renderer';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import { createRequire } from 'module';
 
+const require = createRequire(import.meta.url);
 const vercel = process.env.VERCEL_ENV === 'preview';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -39,8 +41,8 @@ const config = {
           path: 'modules',
           routeBasePath: 'docs',
           exclude: ['**/blog/**'],
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -62,8 +64,8 @@ const config = {
           routeBasePath: 'blog',
           showReadingTime: false,
           blogSidebarCount: 'ALL',
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -76,7 +78,7 @@ const config = {
           filename: 'sitemap.xml',
         },
         theme: {
-          customCss: [require.resolve('./src/style/custom.scss')],
+          customCss: ['./src/style/custom.scss'],
         },
       }),
     ],
@@ -150,4 +152,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+export default config;
