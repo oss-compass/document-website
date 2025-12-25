@@ -102,5 +102,29 @@
   "sidebar.webSidebar.doc.Weekly Meeting": {
     "message": "Weekly Meeting",
     "description": "The label for the doc item Weekly Meeting in sidebar webSidebar, linking to the doc community/community/metting"
+  },
+  "sidebar.webSidebar.doc.metrics-models-overview": {
+    "message": "Overview",
+    "description": "The label for the doc item Overview in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.doc.collaboration-productivity-overview": {
+    "message": "Overview",
+    "description": "The label for the doc item Overview in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.doc.collaboration-robustness-overview": {
+    "message": "Overview",
+    "description": "The label for the doc item Overview in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.doc.collaboration-niche-creation-overview": {
+    "message": "Overview",
+    "description": "The label for the doc item Overview in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.doc.people-productivity-overview": {
+    "message": "Overview",
+    "description": "The label for the doc item Overview in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.doc.software-artifact-robustness-overview": {
+    "message": "Overview",
+    "description": "The label for the doc item Overview in sidebar webSidebar"
   }
 }

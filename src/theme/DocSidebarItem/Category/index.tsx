@@ -7,19 +7,49 @@ import {
   Collapsible,
   useCollapsible,
 } from '@docusaurus/theme-common';
-import {
-  isActiveSidebarItem,
-  findFirstCategoryLink,
-  useDocSidebarItemsExpandedState,
-  isSamePath,
-  // @ts-ignore
-} from '@docusaurus/theme-common/internal';
 import Link from '@docusaurus/Link';
 import { translate } from '@docusaurus/Translate';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import DocSidebarItems from '@theme/DocSidebarItems';
 import type { Props } from '@theme/DocSidebarItem/Category';
 import { HiOutlineChevronRight } from 'react-icons/hi';
+
+// Helper function to check if two paths are the same
+function isSamePath(path1: string | undefined, path2: string | undefined): boolean {
+  if (!path1 || !path2) {
+    return false;
+  }
+  // Normalize paths by removing trailing slashes and comparing
+  const normalize = (p: string) => p.replace(/\/$/, '') || '/';
+  return normalize(path1) === normalize(path2);
+}
+
+// Helper function to check if a sidebar item is active
+function isActiveSidebarItem(item: any, activePath: string): boolean {
+  if (item.type === 'link') {
+    return isSamePath(item.href, activePath);
+  }
+  if (item.type === 'category') {
+    return item.items.some((subItem: any) => isActiveSidebarItem(subItem, activePath));
+  }
+  return false;
+}
+
+// Context for managing expanded state of sidebar items
+const DocSidebarItemsExpandedStateContext = React.createContext<{
+  expandedItem: number | null;
+  setExpandedItem: (index: number | null) => void;
+} | null>(null);
+
+function useDocSidebarItemsExpandedState() {
+  const context = React.useContext(DocSidebarItemsExpandedStateContext);
+  if (!context) {
+    // Fallback if provider is not available
+    const [expandedItem, setExpandedItem] = React.useState<number | null>(null);
+    return { expandedItem, setExpandedItem };
+  }
+  return context;
+}
 
 // If we navigate to a category and it becomes active, it should automatically
 // expand itself
@@ -62,7 +92,20 @@ function useCategoryHrefWithSSRFallback(
     if (isBrowser || !item.collapsible) {
       return undefined;
     }
-    return findFirstCategoryLink(item);
+    // Manually find the first link in the category
+    const findFirstLink = (items: any[]): string | undefined => {
+      for (const subItem of items) {
+        if (subItem.type === 'link' && subItem.href) {
+          return subItem.href;
+        }
+        if (subItem.type === 'category' && subItem.items) {
+          const link = findFirstLink(subItem.items);
+          if (link) return link;
+        }
+      }
+      return undefined;
+    };
+    return findFirstLink(item.items);
   }, [item, isBrowser]);
 }
 

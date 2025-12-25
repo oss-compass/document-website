@@ -20,11 +20,16 @@ const User = () => {
   });
 
   React.useEffect(() => {
-    fetchUserInfo().then((data: any) => {
-      if (data && data.currentUser) {
-        setUser(data);
-      }
-    });
+    fetchUserInfo()
+      .then((data: any) => {
+        if (data && data.currentUser) {
+          setUser(data);
+        }
+      })
+      .catch((error) => {
+        // GraphQL API not available, keep user as null
+        console.warn('User authentication not available:', error.message);
+      });
   }, []);
 
   if (!user) {
@@ -62,9 +67,14 @@ const User = () => {
           <div
             className="flex cursor-pointer items-center  whitespace-nowrap border-b border-white/20 py-4 pl-6 text-center last:border-b-0 hover:bg-[#333333]"
             onClick={() => {
-              signOut().then(() => {
-                window.location.href = '/auth/signin';
-              });
+              signOut()
+                .then(() => {
+                  window.location.href = '/auth/signin';
+                })
+                .catch((error) => {
+                  console.warn('Sign out failed:', error.message);
+                  window.location.href = '/auth/signin';
+                });
             }}
           >
             <MdOutlineLogout className="mr-2 text-base" />
