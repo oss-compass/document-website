@@ -3,6 +3,30 @@
     "message": "Next",
     "description": "The label for version current"
   },
+  "sidebar.webSidebar.category.Service Guide": {
+    "message": "Service Guide",
+    "description": "The label for category Compass Service Guide in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.category.Service Guide.link.generated-index.description": {
+    "message": "This guide introduces the core services provided by OSS Compass platform, helping users understand and utilize various evaluation and analysis tools.",
+    "description": "The generated-index page description for category Compass Service Guide in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.doc.Open Source Trend Insights": {
+    "message": "Open Source Trend Insights",
+    "description": "The label for the doc item Open Source Trend Insights in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.doc.Software Selection Evaluation": {
+    "message": "Software Selection Evaluation",
+    "description": "The label for the doc item Software Selection Evaluation in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.doc.Developer Persona Evaluation": {
+    "message": "Developer Persona Evaluation",
+    "description": "The label for the doc item Developer Persona Evaluation in sidebar webSidebar"
+  },
+  "sidebar.webSidebar.doc.Research Data Hub": {
+    "message": "Research Data Hub",
+    "description": "The label for the doc item Research Data Hub in sidebar webSidebar"
+  },
   "sidebar.webSidebar.category.Ecosystem Evaluation System": {
     "message": "Ecosystem Evaluation System",
     "description": "The label for category Ecosystem Evaluation System in sidebar webSidebar"

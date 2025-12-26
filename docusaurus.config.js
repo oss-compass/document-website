@@ -96,6 +96,21 @@ const config = {
     'docusaurus-plugin-sass',
     './plugin/postcss-tailwind-loader',
     './plugin/fix-canvas-node-error',
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/docs/dimensions-define',
+            to: '/docs/service-guide',
+          },
+          {
+            from: '/docs/quick-start',
+            to: '/docs/service-guide',
+          },
+        ],
+      },
+    ],
   ],
 
   themeConfig:
@@ -117,8 +132,7 @@ const config = {
           {
             title: 'Tutorial',
             items: [
-              { label: 'Quick start', to: '/docs/quick-start' },
-              { label: 'Dimensions Define', to: '/docs/dimensions-define' },
+              { label: 'Service Guide', to: '/docs/service-guide' },
             ],
           },
           {

@@ -27,6 +27,7 @@
   "dependencies": {
     "@crowdin/cli": "^3.9.1",
     "@docusaurus/core": "3.9.2",
+    "@docusaurus/plugin-client-redirects": "^3.9.2",
     "@docusaurus/preset-classic": "3.9.2",
     "@mdx-js/react": "^3.0.0",
     "@radix-ui/react-portal": "^1.0.3",

@@ -3,6 +3,38 @@
     "message": "下篇文档",
     "description": "The label for version current"
   },
+  "sidebar.webSidebar.category.Service Guide": {
+    "message": "服务指南",
+    "description": "The label for category 'Compass Service Guide' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.Service Guide.link.generated-index.description": {
+    "message": "本指南介绍 OSS Compass 平台提供的核心服务，帮助用户了解和使用各种评估分析工具。",
+    "description": "The generated-index page description for category 'Compass Service Guide' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Open Source Trend Insights": {
+    "message": "开源态势洞察服务",
+    "description": "The label for the doc item 'Open Source Trend Insights' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Software Selection Evaluation": {
+    "message": "开源软件选型评估服务",
+    "description": "The label for the doc item 'Software Selection Evaluation' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Developer Persona Evaluation": {
+    "message": "开发者画像评估服务",
+    "description": "The label for the doc item 'Developer Persona Evaluation' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Research Data Hub": {
+    "message": "开源研究数据中枢服务",
+    "description": "The label for the doc item 'Research Data Hub' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.Ecosystem Evaluation Service": {
+    "message": "开源生态评估服务",
+    "description": "The label for category 'Ecosystem Evaluation Service' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.Ecosystem Evaluation Service.link.generated-index.description": {
+    "message": "构建三维评估体系，评估开源社区的健康状态。",
+    "description": "The generated-index page description for category 'Ecosystem Evaluation Service' in sidebar 'webSidebar'"
+  },
   "sidebar.webSidebar.category.Ecosystem Evaluation System": {
     "message": "开源生态评估体系",
     "description": "The label for category 'Ecosystem Evaluation System' in sidebar 'webSidebar'"
@@ -12,7 +44,7 @@
     "description": "The generated-index page description for category 'Ecosystem Evaluation System' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.Collaboration-Productivity": {
-    "message": "协作-生产力",
+    "message": "协作 - 生产力",
     "description": "The label for category 'Collaboration-Productivity' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.Collaboration-Productivity.link.generated-index.description": {
@@ -20,7 +52,7 @@
     "description": "The generated-index page description for category 'Collaboration-Productivity' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.Collaboration-Robustness": {
-    "message": "协作-稳健性",
+    "message": "协作 - 稳健性",
     "description": "The label for category 'Collaboration-Robustness' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.Collaboration-Robustness.link.generated-index.description": {
@@ -28,7 +60,7 @@
     "description": "The generated-index page description for category 'Collaboration-Robustness' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.Collaboration-Niche Creation": {
-    "message": "协作-创新力",
+    "message": "协作 - 创新力",
     "description": "The label for category 'Collaboration-Niche Creation' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.Collaboration-Niche Creation.link.generated-index.description": {
@@ -36,7 +68,7 @@
     "description": "The generated-index page description for category 'Collaboration-Niche Creation' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.People-Productivity": {
-    "message": "贡献者-生产力",
+    "message": "贡献者 - 生产力",
     "description": "The label for category 'People-Productivity' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.People-Productivity.link.generated-index.description": {
@@ -44,7 +76,7 @@
     "description": "The generated-index page description for category 'People-Productivity' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.Software Artifact-Robustness": {
-    "message": "软件制品-稳健性",
+    "message": "软件制品 - 稳健性",
     "description": "The label for category 'Software Artifact-Robustness' in sidebar 'webSidebar'"
   },
   "sidebar.webSidebar.category.Software Artifact-Robustness.link.generated-index.description": {
