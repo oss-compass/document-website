@@ -402,6 +402,9 @@
   "header.home_input_experience": {
     "message": "首页输入框体验产品"
   },
+  "header.service_guide": {
+    "message": "服务指引"
+  },
   "theme.colorToggle.ariaLabel.mode.system": {
     "message": "system mode",
     "description": "The name for the system color mode"

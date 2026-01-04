@@ -21,6 +21,10 @@ const MoreDropdown = () => {
           link: '/os-situation',
           linkText: <Translate id={'header.product_home'} />,
         },
+        {
+          link: '/docs/docs/service-guide/open-source-insights',
+          linkText: <Translate id={'header.service_guide'} />,
+        },
       ],
     },
     {
@@ -32,6 +36,10 @@ const MoreDropdown = () => {
           link: '/os-selection',
           linkText: <Translate id={'header.product_home'} />,
         },
+        {
+          link: '/docs/docs/service-guide/software-selection',
+          linkText: <Translate id={'header.service_guide'} />,
+        },
       ],
     },
     {
@@ -42,6 +50,10 @@ const MoreDropdown = () => {
         {
           link: '/',
           linkText: <Translate id={'header.home_input_experience'} />,
+        },
+        {
+          link: '/docs/docs/service-guide/developer-persona',
+          linkText: <Translate id={'header.service_guide'} />,
         },
       ],
     },
@@ -58,6 +70,10 @@ const MoreDropdown = () => {
           link: '/',
           linkText: <Translate id={'header.home_input_experience'} />,
         },
+        {
+          link: '/docs/quick-start',
+          linkText: <Translate id={'header.service_guide'} />,
+        },
       ],
     },
     {
@@ -68,6 +84,10 @@ const MoreDropdown = () => {
         {
           link: '/dataHub',
           linkText: <Translate id={'header.product_home'} />,
+        },
+        {
+          link: '/docs/docs/service-guide/research-data-hub',
+          linkText: <Translate id={'header.service_guide'} />,
         },
         {
           link: 'https://oss-compass.isrc.ac.cn/',
@@ -99,20 +119,20 @@ const MoreDropdown = () => {
                 <div className="w-8">{service.icon}</div>
                 <div className="cursor-pointer">
                   <div className="mb-3 text-base hover:text-[#597ef7]">
-                    <a href={service.linkItems[0].link}>{service.title}</a>
+                    <Link to={service.linkItems[0].link}>{service.title}</Link>
                   </div>
                   <div className="mb-3 text-xs text-[#c1c1c1] line-clamp-3">
                     {service.description}
                   </div>
                   <div className="flex flex-col gap-1 text-sm text-[#8ba5f9]">
                     {service.linkItems.map((linkItem) => (
-                      <a
+                      <Link
                         key={linkItem.link}
-                        href={linkItem.link}
+                        to={linkItem.link}
                         target={linkItem.target}
                       >
                         <div>{linkItem.linkText}</div>
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

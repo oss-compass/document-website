@@ -401,5 +401,8 @@
   },
   "header.home_input_experience": {
     "message": "Home Input Experience Product"
+  },
+  "header.service_guide": {
+    "message": "Service Guide"
   }
 }

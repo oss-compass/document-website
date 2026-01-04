@@ -104,10 +104,6 @@ const config = {
             from: '/docs/dimensions-define',
             to: '/docs/service-guide',
           },
-          {
-            from: '/docs/quick-start',
-            to: '/docs/service-guide',
-          },
         ],
       },
     ],
