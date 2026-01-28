@@ -150,6 +150,7 @@ const config = {
             items: [
               { label: 'Github', href: 'https://github.com/oss-compass' },
               { label: 'Gitee', href: 'https://gitee.com/oss-compass' },
+              { label: 'AtomGit', href: 'https://atomgit.com/oss-compass' },
             ],
           },
         ],

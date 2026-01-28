@@ -95,6 +95,10 @@
     "message": "Gitee",
     "description": "The label for link Gitee in sidebar webSidebar, linking to https://gitee.com/oss-compass"
   },
+  "sidebar.webSidebar.link.AtomGit": {
+    "message": "AtomGit",
+    "description": "The label for link AtomGit in sidebar webSidebar, linking to https://atomgit.com/oss-compass"
+  },
   "sidebar.webSidebar.doc.Quick Start": {
     "message": "Quick Start",
     "description": "The label for the doc item Quick Start in sidebar webSidebar, linking to the doc community/quick-start"

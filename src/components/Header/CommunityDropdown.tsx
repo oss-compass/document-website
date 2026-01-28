@@ -118,6 +118,24 @@ const RepoLinks = () => {
             </p>
           </div>
         </a>
+        <a
+          href="https://atomgit.com/oss-compass"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classnames(subItemClass)}
+        >
+          <div className="mr-4 w-8">
+            <img src="/img/gitcode-white.png" alt="AtomGit" />
+          </div>
+          <div>
+            <p className="text-base">
+              <Translate id="community.atomgit" />
+            </p>
+            <p className="text-sm text-white/50">
+              <Translate id="community.official_repository_on_atomgit" />
+            </p>
+          </div>
+        </a>
       </div>
     </>
   );

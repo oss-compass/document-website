@@ -83,6 +83,12 @@
   "community.official_repository_on_gitee": {
     "message": "Official repository on Gitee"
   },
+  "community.atomgit": {
+    "message": "AtomGit"
+  },
+  "community.official_repository_on_atomgit": {
+    "message": "Official repository on AtomGit"
+  },
   "community.meeting": {
     "message": "Weekly Meeting"
   },
