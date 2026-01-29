@@ -119,21 +119,35 @@ const MoreDropdown = () => {
                 <div className="w-8">{service.icon}</div>
                 <div className="cursor-pointer">
                   <div className="mb-3 text-base hover:text-[#597ef7]">
-                    <Link to={service.linkItems[0].link}>{service.title}</Link>
+                    {service.linkItems[0].link.startsWith('/docs') ? (
+                      <Link to={service.linkItems[0].link}>{service.title}</Link>
+                    ) : (
+                      <a href={service.linkItems[0].link}>{service.title}</a>
+                    )}
                   </div>
                   <div className="mb-3 text-xs text-[#c1c1c1] line-clamp-3">
                     {service.description}
                   </div>
                   <div className="flex flex-col gap-1 text-sm text-[#8ba5f9]">
-                    {service.linkItems.map((linkItem) => (
-                      <Link
-                        key={linkItem.link}
-                        to={linkItem.link}
-                        target={linkItem.target}
-                      >
-                        <div>{linkItem.linkText}</div>
-                      </Link>
-                    ))}
+                    {service.linkItems.map((linkItem) =>
+                      linkItem.link.startsWith('/docs') ? (
+                        <Link
+                          key={linkItem.link}
+                          to={linkItem.link}
+                          target={linkItem.target}
+                        >
+                          <div>{linkItem.linkText}</div>
+                        </Link>
+                      ) : (
+                        <a
+                          key={linkItem.link}
+                          href={linkItem.link}
+                          target={linkItem.target}
+                        >
+                          <div>{linkItem.linkText}</div>
+                        </a>
+                      )
+                    )}
                   </div>
                 </div>
               </div>
