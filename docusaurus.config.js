@@ -96,6 +96,17 @@ const config = {
     'docusaurus-plugin-sass',
     './plugin/postcss-tailwind-loader',
     './plugin/fix-canvas-node-error',
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/docs/dimensions-define',
+            to: '/docs/service-guide',
+          },
+        ],
+      },
+    ],
   ],
 
   themeConfig:
@@ -117,8 +128,7 @@ const config = {
           {
             title: 'Tutorial',
             items: [
-              { label: 'Quick start', to: '/docs/quick-start' },
-              { label: 'Dimensions Define', to: '/docs/dimensions-define' },
+              { label: 'Service Guide', to: '/docs/service-guide' },
             ],
           },
           {
@@ -140,6 +150,7 @@ const config = {
             items: [
               { label: 'Github', href: 'https://github.com/oss-compass' },
               { label: 'Gitee', href: 'https://gitee.com/oss-compass' },
+              { label: 'AtomGit', href: 'https://atomgit.com/oss-compass' },
             ],
           },
         ],

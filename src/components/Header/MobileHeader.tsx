@@ -49,7 +49,7 @@ const MobileHeader: React.FC<PropsWithChildren> = ({ children }) => {
     },
     {
       title: translate({ id: 'header.docs' }),
-      href: '/docs/dimensions-define',
+      href: '/docs/service-guide',
       icon: null,
     },
     {

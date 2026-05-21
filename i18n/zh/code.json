@@ -83,6 +83,12 @@
   "community.official_repository_on_gitee": {
     "message": "官方 Gitee 仓库"
   },
+  "community.atomgit": {
+    "message": "AtomGit"
+  },
+  "community.official_repository_on_atomgit": {
+    "message": "官方 AtomGit 仓库"
+  },
   "community.meeting": {
     "message": "腾讯会议"
   },
@@ -289,7 +295,7 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsListLabel": {
-    "message": "标签:",
+    "message": "标签：",
     "description": "The label alongside a tag list"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -401,6 +407,9 @@
   },
   "header.home_input_experience": {
     "message": "首页输入框体验产品"
+  },
+  "header.service_guide": {
+    "message": "服务指引"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
     "message": "system mode",
