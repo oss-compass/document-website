@@ -78,7 +78,7 @@ const sidebars = {
     {
       type: 'category',
       collapsed: false,
-      label: 'All Service',
+      label: 'ALL Services',
       link: {
         type: 'generated-index',
         slug: '/service-guide',
