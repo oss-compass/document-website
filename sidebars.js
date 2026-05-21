@@ -21,7 +21,64 @@ const sidebars = {
     {
       type: 'category',
       collapsed: false,
-      label: 'Service Guide',
+      label: 'V3 Assessment System',
+      link: {
+        type: 'generated-index',
+        description: 'The V3 Assessment System provides comprehensive evaluation frameworks for open source communities, including Community Ecosystem Health, Developer Journey, and Supply Chain Security assessments.',
+        slug: '/v3-assessment',
+        keywords: ['V3 Assessment', 'Community Health', 'Developer Journey', 'Supply Chain Security'],
+        image: '/img/docusaurus.png',
+      },
+      items: [
+        {
+          type: 'category',
+          collapsed: false,
+          label: 'Community Ecosystem Health Assessment',
+          link: {
+            type: 'doc',
+            id: 'docs/v3-assessment/Community Ecosystem Health Assessment/Overview',
+          },
+          items: [
+            { type: 'doc', id: 'docs/v3-assessment/Community Ecosystem Health Assessment/Community Vitality', label: 'Community Vitality' },
+            { type: 'doc', id: 'docs/v3-assessment/Community Ecosystem Health Assessment/Collaboration Efficiency', label: 'Collaboration Efficiency' },
+            { type: 'doc', id: 'docs/v3-assessment/Community Ecosystem Health Assessment/Open Governance', label: 'Open Governance' },
+          ],
+        },
+        {
+          type: 'category',
+          collapsed: false,
+          label: 'Developer Journey Assessment',
+          link: {
+            type: 'doc',
+            id: 'docs/v3-assessment/Developer Journey Assessment/Overview',
+          },
+          items: [
+            { type: 'doc', id: 'docs/v3-assessment/Developer Journey Assessment/Developer Attraction', label: 'Developer Attraction' },
+            { type: 'doc', id: 'docs/v3-assessment/Developer Journey Assessment/Developer Growth', label: 'Developer Growth' },
+            { type: 'doc', id: 'docs/v3-assessment/Developer Journey Assessment/Developer Retention', label: 'Developer Retention' },
+          ],
+        },
+        {
+          type: 'category',
+          collapsed: false,
+          label: 'Open Source Software Supply Chain Security Assessment',
+          link: {
+            type: 'doc',
+            id: 'docs/v3-assessment/Open Source Software Supply Chain Security Assessment/Overview',
+          },
+          items: [
+            { type: 'doc', id: 'docs/v3-assessment/Open Source Software Supply Chain Security Assessment/Source Code Management', label: 'Source Code Management' },
+            { type: 'doc', id: 'docs/v3-assessment/Open Source Software Supply Chain Security Assessment/Development and Build', label: 'Development and Build' },
+            { type: 'doc', id: 'docs/v3-assessment/Open Source Software Supply Chain Security Assessment/Release and Maintenance', label: 'Release and Maintenance' },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'category',
+      collapsed: false,
+      label: 'Ecosystem Evaluation System',
       link: {
         type: 'generated-index',
         description: 'This guide introduces the core services provided by OSS Compass platform, helping users understand and utilize various evaluation and analysis tools.',
