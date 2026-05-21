@@ -35,6 +35,10 @@
     "message": "开源生态评估服务",
     "description": "The label for category 'Ecosystem Evaluation Service' in sidebar 'webSidebar'"
   },
+  "sidebar.webSidebar.category.ALL Services": {
+    "message": "全部服务",
+    "description": "The label for category 'ALL Services' in sidebar 'webSidebar'"
+  },
   "sidebar.webSidebar.category.Ecosystem Evaluation Service.link.generated-index.description": {
     "message": "构建三维评估体系，评估开源社区的健康状态。",
     "description": "The generated-index page description for category 'Ecosystem Evaluation Service' in sidebar 'webSidebar'"
