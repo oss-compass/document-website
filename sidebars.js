@@ -78,10 +78,9 @@ const sidebars = {
     {
       type: 'category',
       collapsed: false,
-      label: 'Ecosystem Evaluation System',
+      label: 'All Service',
       link: {
         type: 'generated-index',
-        description: 'This guide introduces the core services provided by OSS Compass platform, helping users understand and utilize various evaluation and analysis tools.',
         slug: '/service-guide',
         keywords: ['Service Guide', 'Compass Services'],
         image: '/img/docusaurus.png',
@@ -92,7 +91,7 @@ const sidebars = {
         { type: 'doc', id: 'docs/service-guide/developer-persona', label: 'Developer Persona Evaluation' },
         {
           type: 'category',
-          collapsed: false,
+          collapsed: true,
           label: 'Ecosystem Evaluation Service',
           link: {
             type: 'generated-index',

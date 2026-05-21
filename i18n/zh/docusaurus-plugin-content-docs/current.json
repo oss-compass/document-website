@@ -27,6 +27,10 @@
     "message": "开源研究数据中枢服务",
     "description": "The label for the doc item 'Research Data Hub' in sidebar 'webSidebar'"
   },
+  "sidebar.webSidebar.category.All Service": {
+    "message": "全部服务",
+    "description": "The label for category 'All Service' in sidebar 'webSidebar'"
+  },
   "sidebar.webSidebar.category.Ecosystem Evaluation Service": {
     "message": "开源生态评估服务",
     "description": "The label for category 'Ecosystem Evaluation Service' in sidebar 'webSidebar'"
@@ -162,5 +166,61 @@
   "sidebar.webSidebar.doc.software-artifact-robustness-overview": {
     "message": "概览",
     "description": "The label for the doc item 'Overview' in sidebar 'webSidebar', linking to the doc docs/metrics-models/software_artifact/robustness/software-artifact-robustness-overview"
+  },
+  "sidebar.webSidebar.category.V3 Assessment System": {
+    "message": "V3 评估体系",
+    "description": "The label for category 'V3 Assessment System' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.V3 Assessment System.link.generated-index.description": {
+    "message": "V3 评估体系为开源社区提供全面的评估框架，包括社区生态健康评估、开发者旅程评估与开源软件供应链安全评估。",
+    "description": "The generated-index page description for category 'V3 Assessment System' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.Community Ecosystem Health Assessment": {
+    "message": "社区生态健康评估",
+    "description": "The label for category 'Community Ecosystem Health Assessment' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Community Vitality": {
+    "message": "社区活力",
+    "description": "The label for the doc item 'Community Vitality' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Collaboration Efficiency": {
+    "message": "协作效率",
+    "description": "The label for the doc item 'Collaboration Efficiency' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Open Governance": {
+    "message": "开放治理",
+    "description": "The label for the doc item 'Open Governance' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.Developer Journey Assessment": {
+    "message": "开发者旅程评估",
+    "description": "The label for category 'Developer Journey Assessment' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Developer Attraction": {
+    "message": "开发者吸引",
+    "description": "The label for the doc item 'Developer Attraction' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Developer Growth": {
+    "message": "开发者成长",
+    "description": "The label for the doc item 'Developer Growth' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Developer Retention": {
+    "message": "开发者留存",
+    "description": "The label for the doc item 'Developer Retention' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.Open Source Software Supply Chain Security Assessment": {
+    "message": "开源软件供应链安全评估",
+    "description": "The label for category 'Open Source Software Supply Chain Security Assessment' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Source Code Management": {
+    "message": "源码管理",
+    "description": "The label for the doc item 'Source Code Management' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Development and Build": {
+    "message": "开发与构建",
+    "description": "The label for the doc item 'Development and Build' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Release and Maintenance": {
+    "message": "发布与维护",
+    "description": "The label for the doc item 'Release and Maintenance' in sidebar 'webSidebar'"
   }
 }
