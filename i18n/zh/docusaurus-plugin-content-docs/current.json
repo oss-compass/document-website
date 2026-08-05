@@ -162,5 +162,69 @@
   "sidebar.webSidebar.doc.software-artifact-robustness-overview": {
     "message": "概览",
     "description": "The label for the doc item 'Overview' in sidebar 'webSidebar', linking to the doc docs/metrics-models/software_artifact/robustness/software-artifact-robustness-overview"
+  },
+  "sidebar.webSidebar.category.V3 Assessment System": {
+    "message": "V3 评估体系",
+    "description": "The label for category 'V3 Assessment System' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.V3 Assessment System.link.generated-index.description": {
+    "message": "V3 评估体系为开源社区提供综合评估框架，涵盖社区生态健康、开发者旅程和供应链安全评估。",
+    "description": "The generated-index page description for category 'V3 Assessment System' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.Community Ecosystem Health Assessment": {
+    "message": "社区生态健康评估",
+    "description": "The label for category 'Community Ecosystem Health Assessment' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.Developer Journey Assessment": {
+    "message": "开发者旅程评估",
+    "description": "The label for category 'Developer Journey Assessment' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.Open Source Software Supply Chain Security Assessment": {
+    "message": "开源软件供应链安全评估",
+    "description": "The label for category 'Open Source Software Supply Chain Security Assessment' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.ecosystem-evaluation-service-guide": {
+    "message": "开源生态评估体系",
+    "description": "The label for category 'Ecosystem Evaluation System' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.category.ecosystem-evaluation-service-guide.link.generated-index.description": {
+    "message": "本指南介绍 OSS Compass 平台提供的核心服务，帮助用户了解和使用各种评估分析工具。",
+    "description": "The generated-index page description for category 'Ecosystem Evaluation System' in sidebar 'webSidebar'"
+  },
+  "sidebar.webSidebar.doc.Community Vitality": {
+    "message": "社区活力",
+    "description": "The label for the doc item 'Community Vitality' in sidebar 'webSidebar', linking to the doc docs/v3-assessment/Community Ecosystem Health Assessment/Community Vitality"
+  },
+  "sidebar.webSidebar.doc.Collaboration Efficiency": {
+    "message": "协作效率",
+    "description": "The label for the doc item 'Collaboration Efficiency' in sidebar 'webSidebar', linking to the doc docs/v3-assessment/Community Ecosystem Health Assessment/Collaboration Efficiency"
+  },
+  "sidebar.webSidebar.doc.Open Governance": {
+    "message": "开放治理",
+    "description": "The label for the doc item 'Open Governance' in sidebar 'webSidebar', linking to the doc docs/v3-assessment/Community Ecosystem Health Assessment/Open Governance"
+  },
+  "sidebar.webSidebar.doc.Developer Attraction": {
+    "message": "开发者吸引力",
+    "description": "The label for the doc item 'Developer Attraction' in sidebar 'webSidebar', linking to the doc docs/v3-assessment/Developer Journey Assessment/Developer Attraction"
+  },
+  "sidebar.webSidebar.doc.Developer Growth": {
+    "message": "开发者成长",
+    "description": "The label for the doc item 'Developer Growth' in sidebar 'webSidebar', linking to the doc docs/v3-assessment/Developer Journey Assessment/Developer Growth"
+  },
+  "sidebar.webSidebar.doc.Developer Retention": {
+    "message": "开发者留存",
+    "description": "The label for the doc item 'Developer Retention' in sidebar 'webSidebar', linking to the doc docs/v3-assessment/Developer Journey Assessment/Developer Retention"
+  },
+  "sidebar.webSidebar.doc.Source Code Management": {
+    "message": "源代码管理",
+    "description": "The label for the doc item 'Source Code Management' in sidebar 'webSidebar', linking to the doc docs/v3-assessment/Open Source Software Supply Chain Security Assessment/Source Code Management"
+  },
+  "sidebar.webSidebar.doc.Development and Build": {
+    "message": "开发与构建",
+    "description": "The label for the doc item 'Development and Build' in sidebar 'webSidebar', linking to the doc docs/v3-assessment/Open Source Software Supply Chain Security Assessment/Development and Build"
+  },
+  "sidebar.webSidebar.doc.Release and Maintenance": {
+    "message": "发布与维护",
+    "description": "The label for the doc item 'Release and Maintenance' in sidebar 'webSidebar', linking to the doc docs/v3-assessment/Open Source Software Supply Chain Security Assessment/Release and Maintenance"
   }
 }
