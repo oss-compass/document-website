@@ -79,6 +79,7 @@ const sidebars = {
       type: 'category',
       collapsed: false,
       label: 'Ecosystem Evaluation System',
+      key: 'ecosystem-evaluation-service-guide',
       link: {
         type: 'generated-index',
         description: 'This guide introduces the core services provided by OSS Compass platform, helping users understand and utilize various evaluation and analysis tools.',
